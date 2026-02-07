@@ -11,6 +11,27 @@ def safe_filename(url):
     path = urlparse(url).path.strip("/")
     return (path.replace("/", "_") or "index") + ".html"
 
+def extract_main_content(page):
+    selectors = [
+        "article",
+        "main",
+        "[role=main]",
+        "#content",
+        ".content",
+        ".documentation",
+    ]
+
+    for selector in selectors:
+        locator = page.locator(selector)
+        if locator.count() > 0:
+            html = locator.first.inner_html()
+            if len(html.strip()) > 500:
+                print(f"✓ Using selector: {selector}")
+                return html
+
+    print("⚠ Falling back to <body>")
+    return page.locator("body").inner_html()
+
 with open(LINKS_FILE, "r", encoding="utf-8") as f:
     urls = [u.strip() for u in f if u.strip()]
 
@@ -22,12 +43,11 @@ with sync_playwright() as p:
         print(f"Rendering {url}")
         page.goto(url, wait_until="domcontentloaded", timeout=60000)
 
-        # Stripe content is inside <article>
-        article_html = page.locator("article").inner_html()
+        content_html = extract_main_content(page)
 
         filename = safe_filename(url)
         with open(os.path.join(HTML_DIR, filename), "w", encoding="utf-8") as f:
-            f.write(article_html)
+            f.write(content_html)
 
     browser.close()
 
