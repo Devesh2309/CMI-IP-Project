@@ -1,0 +1,11 @@
+beautifulsoup4
+markdownify
+requests
+python-dotenv
+playwright
+tqdm
+networkx
+sentence-transformers
+chromadb
+lxml
+pyvis
