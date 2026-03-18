@@ -1,17 +1,18 @@
 import os
 import requests
 
-from src.config import FIRECRAWL_API_KEY, BASE_URL, LINKS_DIR
+from src.config import FIRECRAWL_API_KEY, BASE_URL, LINKS_DIR, LINKS_FILE
 
 
-def discover_links(output_filename: str = "api_links.txt", limit: int = 200) -> str:
+def discover_links(output_filename: str = LINKS_FILE, limit: int = 5000) -> str:
     """Discover documentation links using Firecrawl and save to file."""
 
     if not FIRECRAWL_API_KEY:
         raise ValueError("FIRECRAWL_API_KEY not set in environment.")
 
     os.makedirs(LINKS_DIR, exist_ok=True)
-    output_path = os.path.join(LINKS_DIR, output_filename)
+    output_path = LINKS_FILE
+    # os.path.join(LINKS_DIR, output_filename)
 
     response = requests.post(
         "https://api.firecrawl.dev/v1/map",
@@ -24,7 +25,7 @@ def discover_links(output_filename: str = "api_links.txt", limit: int = 200) -> 
             "includeSubdomains": True,
             "limit": limit,
         },
-        timeout=60,
+        timeout=300,
     )
 
     response.raise_for_status()
