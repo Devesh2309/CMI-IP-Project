@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.IP/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config duplicate
+CONFIG.py
+
+# Test files (optional)
+test.py
+
+# PyVis generated visualizations
+*.html
+
+# Ignore everything inside data
+data/*
+
+# But allow links folder
+!data/links/
+
+# Allow files inside links
+!data/links/*
+
+# Explicitly ignore heavy/generated data
+data/chroma_db/
+data/graph/
+data/markdown/
+data/rendered_html/
