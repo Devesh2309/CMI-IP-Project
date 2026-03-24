@@ -19,10 +19,13 @@ BASE_URL = "https://docs.stripe.com/"
 
 # --------- DATA DIRECTORIES ----------
 BASE_DATA_DIR = "data"
-DOCS_PROVIDER = os.getenv("DOCS_PROVIDER")
+DOCS_PROVIDER = "stripe"
+#os.getenv("DOCS_PROVIDER")
 # --------- STACKOVERFLOW CONFIG ----------
-SO_TAG = os.getenv("SO_TAG", DOCS_PROVIDER)
-SO_PAGES = int(os.getenv("SO_PAGES", 5))      
+SO_TAG = "stripe-payments"
+#os.getenv("SO_TAG", DOCS_PROVIDER)
+SO_PAGES = 5
+#int(os.getenv("SO_PAGES", 5))      
 
 MARKDOWN_DIR = os.path.join(BASE_DATA_DIR, "markdown", f"{DOCS_PROVIDER}_md")
 HTML_DIR = os.path.join(BASE_DATA_DIR, "rendered_html", f"{DOCS_PROVIDER}_html")

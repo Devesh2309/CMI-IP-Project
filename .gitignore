@@ -3,30 +3,30 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
+ 
 # Virtual environments
 .IP/
+
+# Ignore things inside data
+data/rendered_html/**/*.html
+data/markdown/**/*.md
+data/**/_chroma_db/*
+data/issues/*.pkl
+
+# lib
+lib/
+stash/
 
 # Logs
 *.log
 
+# evnvironment variables
+.env
+
 # Test files (optional)
 test.py
 
+some.txt
+test.md
 
-# Ignore everything inside data
-data/*
 
-# But allow links folder
-!data/links/
-!data/issues/*
-
-# Allow files inside links
-!data/links/*
-!data/issues/*
-
-# Explicitly ignore heavy/generated data
-data/chroma_db/
-data/graph/
-data/markdown/
-data/rendered_html/

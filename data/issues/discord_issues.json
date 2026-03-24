@@ -1,0 +1,1252 @@
+[
+    {
+        "title": "\"TypeError: component.toJSON is not a function\" and other errors on unknown line discord.js [SOLVED]",
+        "url": "https://stackoverflow.com/questions/79907435/typeerror-component-tojson-is-not-a-function-and-other-errors-on-unknown-line",
+        "page": 1
+    },
+    {
+        "title": "Negative Unix timestamp in Ruby",
+        "url": "https://stackoverflow.com/questions/79899015/negative-unix-timestamp-in-ruby",
+        "page": 1
+    },
+    {
+        "title": "how can i fix this bot's code written in C++? it won't work because of errors in Visual Studio 2022, i need a fix please",
+        "url": "https://stackoverflow.com/questions/79884893/how-can-i-fix-this-bots-code-written-in-c-it-wont-work-because-of-errors-in",
+        "page": 1
+    },
+    {
+        "title": "Discord voice.play(source) doesn't do anything",
+        "url": "https://stackoverflow.com/questions/79884708/discord-voice-playsource-doesnt-do-anything",
+        "page": 1
+    },
+    {
+        "title": "Is there an on_application_made event in discord.py?",
+        "url": "https://stackoverflow.com/questions/79873170/is-there-an-on-application-made-event-in-discord-py",
+        "page": 1
+    },
+    {
+        "title": "How to read user 'roles' through a Discord bot? [closed]",
+        "url": "https://stackoverflow.com/questions/79870315/how-to-read-user-roles-through-a-discord-bot",
+        "page": 1
+    },
+    {
+        "title": "User specific streaks for roulette command discord.py",
+        "url": "https://stackoverflow.com/questions/79865475/user-specific-streaks-for-roulette-command-discord-py",
+        "page": 1
+    },
+    {
+        "title": "Taking a server id, and resulting all channel ids in Discord using Python [closed]",
+        "url": "https://stackoverflow.com/questions/79865294/taking-a-server-id-and-resulting-all-channel-ids-in-discord-using-python",
+        "page": 1
+    },
+    {
+        "title": "Discord.JS bot Starboard using two differents emojis and count",
+        "url": "https://stackoverflow.com/questions/79859830/discord-js-bot-starboard-using-two-differents-emojis-and-count",
+        "page": 1
+    },
+    {
+        "title": "discord.errors.ClientException: Not connected to voice when in a voice channel",
+        "url": "https://stackoverflow.com/questions/79856390/discord-errors-clientexception-not-connected-to-voice-when-in-a-voice-channel",
+        "page": 1
+    },
+    {
+        "title": "Discord bot embed customization",
+        "url": "https://stackoverflow.com/questions/79854553/discord-bot-embed-customization",
+        "page": 1
+    },
+    {
+        "title": "Recommended workaround for circular import issue?",
+        "url": "https://stackoverflow.com/questions/79850770/recommended-workaround-for-circular-import-issue",
+        "page": 1
+    },
+    {
+        "title": "ModalBuilder throws “Received one or more errors” when using new v14.25.1 modal API (LabelBuilder, addTextInputComponents…)",
+        "url": "https://stackoverflow.com/questions/79827958/modalbuilder-throws-received-one-or-more-errors-when-using-new-v14-25-1-modal",
+        "page": 1
+    },
+    {
+        "title": "Discord command not showing when bot is up",
+        "url": "https://stackoverflow.com/questions/79816994/discord-command-not-showing-when-bot-is-up",
+        "page": 1
+    },
+    {
+        "title": "Website [BOT LISTING] - Show Avatar of Discord Bots",
+        "url": "https://stackoverflow.com/questions/79806739/website-bot-listing-show-avatar-of-discord-bots",
+        "page": 1
+    },
+    {
+        "title": "voiceStateUpdate oldState Channel ID always null",
+        "url": "https://stackoverflow.com/questions/79803249/voicestateupdate-oldstate-channel-id-always-null",
+        "page": 1
+    },
+    {
+        "title": "Channel not found with Java API",
+        "url": "https://stackoverflow.com/questions/79790240/channel-not-found-with-java-api",
+        "page": 1
+    },
+    {
+        "title": "on_member_join & on_member_remove event triggers are not working or showing errors",
+        "url": "https://stackoverflow.com/questions/79779555/on-member-join-on-member-remove-event-triggers-are-not-working-or-showing-erro",
+        "page": 1
+    },
+    {
+        "title": "Why doesn't my timeout command take time correctly?",
+        "url": "https://stackoverflow.com/questions/79761266/why-doesnt-my-timeout-command-take-time-correctly",
+        "page": 1
+    },
+    {
+        "title": "Bot gets \"Unclosed connection\" when joining a voice channel for the first time",
+        "url": "https://stackoverflow.com/questions/79758012/bot-gets-unclosed-connection-when-joining-a-voice-channel-for-the-first-time",
+        "page": 1
+    },
+    {
+        "title": "Discord.js \"guildMemberUpdate\" event only fires the second time i change a Nickname",
+        "url": "https://stackoverflow.com/questions/79757300/discord-js-guildmemberupdate-event-only-fires-the-second-time-i-change-a-nickn",
+        "page": 1
+    },
+    {
+        "title": "Markdown Table Displays Correctly in Console but Misaligned in Mezon",
+        "url": "https://stackoverflow.com/questions/79755272/markdown-table-displays-correctly-in-console-but-misaligned-in-mezon",
+        "page": 1
+    },
+    {
+        "title": "Why does my Discord bot give me a KeyError when I run the join voice channel command?",
+        "url": "https://stackoverflow.com/questions/79751416/why-does-my-discord-bot-give-me-a-keyerror-when-i-run-the-join-voice-channel-com",
+        "page": 1
+    },
+    {
+        "title": "Unable to convert data of Discord Command to JSON",
+        "url": "https://stackoverflow.com/questions/79751056/unable-to-convert-data-of-discord-command-to-json",
+        "page": 1
+    },
+    {
+        "title": "How can I index search a JSON file with different elements in Python [closed]",
+        "url": "https://stackoverflow.com/questions/79740211/how-can-i-index-search-a-json-file-with-different-elements-in-python",
+        "page": 1
+    },
+    {
+        "title": "How to Get the Option Names in Discord.js",
+        "url": "https://stackoverflow.com/questions/79723278/how-to-get-the-option-names-in-discord-js",
+        "page": 1
+    },
+    {
+        "title": "Translating bot.tree.commands",
+        "url": "https://stackoverflow.com/questions/79715182/translating-bot-tree-commands",
+        "page": 1
+    },
+    {
+        "title": "Pycord cog loading gives TypeError: object NoneType can't be used in 'await' expression despite using async setup",
+        "url": "https://stackoverflow.com/questions/79701423/pycord-cog-loading-gives-typeerror-object-nonetype-cant-be-used-in-await-exp",
+        "page": 1
+    },
+    {
+        "title": "How can I make a bot command to perform an action with another user? [closed]",
+        "url": "https://stackoverflow.com/questions/79700012/how-can-i-make-a-bot-command-to-perform-an-action-with-another-user",
+        "page": 1
+    },
+    {
+        "title": "How to do discord OAuth2 in a request session?",
+        "url": "https://stackoverflow.com/questions/79699772/how-to-do-discord-oauth2-in-a-request-session",
+        "page": 1
+    },
+    {
+        "title": "Bot translator in discord",
+        "url": "https://stackoverflow.com/questions/79697023/bot-translator-in-discord",
+        "page": 1
+    },
+    {
+        "title": "Discord intents.message_content",
+        "url": "https://stackoverflow.com/questions/79691968/discord-intents-message-content",
+        "page": 1
+    },
+    {
+        "title": "Out of range error (tuple) slash commands Discum",
+        "url": "https://stackoverflow.com/questions/79689391/out-of-range-error-tuple-slash-commands-discum",
+        "page": 1
+    },
+    {
+        "title": "on_login function not getting executed in flet auth",
+        "url": "https://stackoverflow.com/questions/79684370/on-login-function-not-getting-executed-in-flet-auth",
+        "page": 1
+    },
+    {
+        "title": "Discord API returns 403 'internal network error' (Code 40333)",
+        "url": "https://stackoverflow.com/questions/79682733/discord-api-returns-403-internal-network-error-code-40333",
+        "page": 1
+    },
+    {
+        "title": "Discord bot /interactions commands structure definition",
+        "url": "https://stackoverflow.com/questions/79665719/discord-bot-interactions-commands-structure-definition",
+        "page": 1
+    },
+    {
+        "title": "Discord notification content empty with components V2",
+        "url": "https://stackoverflow.com/questions/79657718/discord-notification-content-empty-with-components-v2",
+        "page": 1
+    },
+    {
+        "title": "How to make a confirmation prompt with buttons with a discord bot in discord.py?",
+        "url": "https://stackoverflow.com/questions/79653645/how-to-make-a-confirmation-prompt-with-buttons-with-a-discord-bot-in-discord-py",
+        "page": 1
+    },
+    {
+        "title": "Discord.js: Trying to register commands globally across DMs. Commands show on Servers and DM with bot, but not on other DMs",
+        "url": "https://stackoverflow.com/questions/79644408/discord-js-trying-to-register-commands-globally-across-dms-commands-show-on-se",
+        "page": 1
+    },
+    {
+        "title": "Discord py slash command only visible to certain people",
+        "url": "https://stackoverflow.com/questions/79642975/discord-py-slash-command-only-visible-to-certain-people",
+        "page": 1
+    },
+    {
+        "title": "Assistance for detecting when discord automod is activated (discord.py)",
+        "url": "https://stackoverflow.com/questions/79639534/assistance-for-detecting-when-discord-automod-is-activated-discord-py",
+        "page": 1
+    },
+    {
+        "title": "How do I get my discord bot to accept two roles for a command?",
+        "url": "https://stackoverflow.com/questions/79637741/how-do-i-get-my-discord-bot-to-accept-two-roles-for-a-command",
+        "page": 1
+    },
+    {
+        "title": "Trying to get my discord bot to log a command and who has used it",
+        "url": "https://stackoverflow.com/questions/79637643/trying-to-get-my-discord-bot-to-log-a-command-and-who-has-used-it",
+        "page": 1
+    },
+    {
+        "title": "Discord NodeJS Show Modal When Validation Fails",
+        "url": "https://stackoverflow.com/questions/79637303/discord-nodejs-show-modal-when-validation-fails",
+        "page": 1
+    },
+    {
+        "title": "Discord bot @on_message_delete caching messages",
+        "url": "https://stackoverflow.com/questions/79636930/discord-bot-on-message-delete-caching-messages",
+        "page": 1
+    },
+    {
+        "title": "discord.py \"Unknown Webhook 10015\" since new router",
+        "url": "https://stackoverflow.com/questions/79631686/discord-py-unknown-webhook-10015-since-new-router",
+        "page": 1
+    },
+    {
+        "title": "Discord bot function failing",
+        "url": "https://stackoverflow.com/questions/79629511/discord-bot-function-failing",
+        "page": 1
+    },
+    {
+        "title": "Two different `InteractionResponseType` enums when using `discord-interactions` in TypeScript",
+        "url": "https://stackoverflow.com/questions/79618826/two-different-interactionresponsetype-enums-when-using-discord-interactions",
+        "page": 1
+    },
+    {
+        "title": "How to query Discord's well known configuration endpoint directly from Firefox?",
+        "url": "https://stackoverflow.com/questions/79616657/how-to-query-discords-well-known-configuration-endpoint-directly-from-firefox",
+        "page": 1
+    },
+    {
+        "title": "Slash command not responding and error when I use defer() or response.send_message (python)",
+        "url": "https://stackoverflow.com/questions/79609505/slash-command-not-responding-and-error-when-i-use-defer-or-response-send-messa",
+        "page": 1
+    },
+    {
+        "title": "Discord API data type for id",
+        "url": "https://stackoverflow.com/questions/79607452/discord-api-data-type-for-id",
+        "page": 2
+    },
+    {
+        "title": "Discord bot can't send message to User in DM",
+        "url": "https://stackoverflow.com/questions/79603611/discord-bot-cant-send-message-to-user-in-dm",
+        "page": 2
+    },
+    {
+        "title": "Does Py-cord support Discord's new User Install Commands feature? [closed]",
+        "url": "https://stackoverflow.com/questions/79595244/does-py-cord-support-discords-new-user-install-commands-feature",
+        "page": 2
+    },
+    {
+        "title": "Unknown Guild error when retrieving Guild (Server) from Discord's API",
+        "url": "https://stackoverflow.com/questions/79594593/unknown-guild-error-when-retrieving-guild-server-from-discords-api",
+        "page": 2
+    },
+    {
+        "title": "discord.js: the bot isnt loading my function (login) even tho i made it very clear in the code what to do ( typeError ). how to fix this? [duplicate]",
+        "url": "https://stackoverflow.com/questions/79587581/discord-js-the-bot-isnt-loading-my-function-login-even-tho-i-made-it-very-cle",
+        "page": 2
+    },
+    {
+        "title": "Discord.py, commands.error: \"roll\" not found",
+        "url": "https://stackoverflow.com/questions/79583847/discord-py-commands-error-roll-not-found",
+        "page": 2
+    },
+    {
+        "title": "Trying to do discord auth without getting \"CSRF Warning! State not equal in request and response.\"",
+        "url": "https://stackoverflow.com/questions/79576359/trying-to-do-discord-auth-without-getting-csrf-warning-state-not-equal-in-requ",
+        "page": 2
+    },
+    {
+        "title": "Issues with `setRulesChannel` and `setPublicUpdatesChannel` Not Updating Guild Object in Discord Library im creating",
+        "url": "https://stackoverflow.com/questions/79572432/issues-with-setruleschannel-and-setpublicupdateschannel-not-updating-guild-o",
+        "page": 2
+    },
+    {
+        "title": "VS Code cannot find discord.py module",
+        "url": "https://stackoverflow.com/questions/79565543/vs-code-cannot-find-discord-py-module",
+        "page": 2
+    },
+    {
+        "title": "Command Return; \"The application did not respond\", but there was no error detected",
+        "url": "https://stackoverflow.com/questions/79564055/command-return-the-application-did-not-respond-but-there-was-no-error-detect",
+        "page": 2
+    },
+    {
+        "title": "Invertex regex matching on a complicated string",
+        "url": "https://stackoverflow.com/questions/79560886/invertex-regex-matching-on-a-complicated-string",
+        "page": 2
+    },
+    {
+        "title": "can you help me with my button discord js",
+        "url": "https://stackoverflow.com/questions/79559779/can-you-help-me-with-my-button-discord-js",
+        "page": 2
+    },
+    {
+        "title": "Discord Music Bot FFMPEG Troubleshooting",
+        "url": "https://stackoverflow.com/questions/79557777/discord-music-bot-ffmpeg-troubleshooting",
+        "page": 2
+    },
+    {
+        "title": "Stripe Checkout Metadata Missing in Webhook Events",
+        "url": "https://stackoverflow.com/questions/79557017/stripe-checkout-metadata-missing-in-webhook-events",
+        "page": 2
+    },
+    {
+        "title": "discord.py cogs not loading properly",
+        "url": "https://stackoverflow.com/questions/79554433/discord-py-cogs-not-loading-properly",
+        "page": 2
+    },
+    {
+        "title": "How do I get someone's specific Discord ID",
+        "url": "https://stackoverflow.com/questions/79551558/how-do-i-get-someones-specific-discord-id",
+        "page": 2
+    },
+    {
+        "title": "JDA thread/post create event listener",
+        "url": "https://stackoverflow.com/questions/79548835/jda-thread-post-create-event-listener",
+        "page": 2
+    },
+    {
+        "title": "Calling a slash command function that is inside a cog",
+        "url": "https://stackoverflow.com/questions/79543929/calling-a-slash-command-function-that-is-inside-a-cog",
+        "page": 2
+    },
+    {
+        "title": "Slash Commands Are Not Getting Registered, Discord js v14.18.0",
+        "url": "https://stackoverflow.com/questions/79543080/slash-commands-are-not-getting-registered-discord-js-v14-18-0",
+        "page": 2
+    },
+    {
+        "title": "why did the bot stop reacting to commands? (Discord)",
+        "url": "https://stackoverflow.com/questions/79537314/why-did-the-bot-stop-reacting-to-commands-discord",
+        "page": 2
+    },
+    {
+        "title": "Problem validating state in Discord OAuth2, NextJS",
+        "url": "https://stackoverflow.com/questions/79537051/problem-validating-state-in-discord-oauth2-nextjs",
+        "page": 2
+    },
+    {
+        "title": "discord.py - making a slash command send a premade poll",
+        "url": "https://stackoverflow.com/questions/79531494/discord-py-making-a-slash-command-send-a-premade-poll",
+        "page": 2
+    },
+    {
+        "title": "Discord.py view doesn't call \"on_timeout()\" method",
+        "url": "https://stackoverflow.com/questions/79526945/discord-py-view-doesnt-call-on-timeout-method",
+        "page": 2
+    },
+    {
+        "title": "Possible To Launch A Discord Activity From Embed Button Or Slash Command?",
+        "url": "https://stackoverflow.com/questions/79525967/possible-to-launch-a-discord-activity-from-embed-button-or-slash-command",
+        "page": 2
+    },
+    {
+        "title": "How to Create discord bot commands from the server",
+        "url": "https://stackoverflow.com/questions/79519707/how-to-create-discord-bot-commands-from-the-server",
+        "page": 2
+    },
+    {
+        "title": "Interaction failed when pressing button in Discord.py bot",
+        "url": "https://stackoverflow.com/questions/79514671/interaction-failed-when-pressing-button-in-discord-py-bot",
+        "page": 2
+    },
+    {
+        "title": "Custom wraps on discord command",
+        "url": "https://stackoverflow.com/questions/79510249/custom-wraps-on-discord-command",
+        "page": 2
+    },
+    {
+        "title": "discord.py add_roles command not working its not detecting the existing roles in the server",
+        "url": "https://stackoverflow.com/questions/79505952/discord-py-add-roles-command-not-working-its-not-detecting-the-existing-roles-in",
+        "page": 2
+    },
+    {
+        "title": "Discord.js 14 Slash Commands Duplicated",
+        "url": "https://stackoverflow.com/questions/79505298/discord-js-14-slash-commands-duplicated",
+        "page": 2
+    },
+    {
+        "title": "Discord Bot and a website communication, what should be the system design",
+        "url": "https://stackoverflow.com/questions/79496302/discord-bot-and-a-website-communication-what-should-be-the-system-design",
+        "page": 2
+    },
+    {
+        "title": "events Pin and Unpin discord.py",
+        "url": "https://stackoverflow.com/questions/79496294/events-pin-and-unpin-discord-py",
+        "page": 2
+    },
+    {
+        "title": "discord app (built with discord.js, Node.js) slash commands work inside server but not in DM",
+        "url": "https://stackoverflow.com/questions/79496292/discord-app-built-with-discord-js-node-js-slash-commands-work-inside-server-b",
+        "page": 2
+    },
+    {
+        "title": "Why discord net doesn't work when I open and close games fast",
+        "url": "https://stackoverflow.com/questions/79493467/why-discord-net-doesnt-work-when-i-open-and-close-games-fast",
+        "page": 2
+    },
+    {
+        "title": "How to correction this command? i need to create a command for delete all messages, users and bots",
+        "url": "https://stackoverflow.com/questions/79490705/how-to-correction-this-command-i-need-to-create-a-command-for-delete-all-messag",
+        "page": 2
+    },
+    {
+        "title": "Discord permission issues when using channel.clone()",
+        "url": "https://stackoverflow.com/questions/79486384/discord-permission-issues-when-using-channel-clone",
+        "page": 2
+    },
+    {
+        "title": "Title: Error “Value must be one of {4, 5, 6, 7, 10, 12}” when trying to send a second modal in Discord.py [closed]",
+        "url": "https://stackoverflow.com/questions/79485100/title-error-value-must-be-one-of-4-5-6-7-10-12-when-trying-to-send-a-s",
+        "page": 2
+    },
+    {
+        "title": "Update an array value in document with Pymongo",
+        "url": "https://stackoverflow.com/questions/79478900/update-an-array-value-in-document-with-pymongo",
+        "page": 2
+    },
+    {
+        "title": "Discord audit logs - removing from channel",
+        "url": "https://stackoverflow.com/questions/79478298/discord-audit-logs-removing-from-channel",
+        "page": 2
+    },
+    {
+        "title": "Discord Bot: Registering slash commands doesnt show the console log",
+        "url": "https://stackoverflow.com/questions/79475325/discord-bot-registering-slash-commands-doesnt-show-the-console-log",
+        "page": 2
+    },
+    {
+        "title": "Discordjs v14, DiscordAPIError[50035]: type[BASE_TYPE_CHOICES]",
+        "url": "https://stackoverflow.com/questions/79472728/discordjs-v14-discordapierror50035-typebase-type-choices",
+        "page": 2
+    },
+    {
+        "title": "Discord: embed - auto reset to inital embed",
+        "url": "https://stackoverflow.com/questions/79454547/discord-embed-auto-reset-to-inital-embed",
+        "page": 2
+    },
+    {
+        "title": "DiscordJS Slash Command using fetch not returning response or any errors",
+        "url": "https://stackoverflow.com/questions/79451548/discordjs-slash-command-using-fetch-not-returning-response-or-any-errors",
+        "page": 2
+    },
+    {
+        "title": "The command with slash does not appear in discord",
+        "url": "https://stackoverflow.com/questions/79446194/the-command-with-slash-does-not-appear-in-discord",
+        "page": 2
+    },
+    {
+        "title": "Nodejs Webscoket discord bot authorization",
+        "url": "https://stackoverflow.com/questions/79440989/nodejs-webscoket-discord-bot-authorization",
+        "page": 2
+    },
+    {
+        "title": "Discord bot PY interactions",
+        "url": "https://stackoverflow.com/questions/79438095/discord-bot-py-interactions",
+        "page": 2
+    },
+    {
+        "title": "discord bot discord.py seems don't working",
+        "url": "https://stackoverflow.com/questions/79432307/discord-bot-discord-py-seems-dont-working",
+        "page": 2
+    },
+    {
+        "title": "VoiceClient.play() missing 1 required positional argument: 'source' error when trying to play audio in Discord bot",
+        "url": "https://stackoverflow.com/questions/79423282/voiceclient-play-missing-1-required-positional-argument-source-error-when-t",
+        "page": 2
+    },
+    {
+        "title": "Set custom Status for a Discord Bot Using JDA",
+        "url": "https://stackoverflow.com/questions/79409180/set-custom-status-for-a-discord-bot-using-jda",
+        "page": 2
+    },
+    {
+        "title": "Why are all attachments is empty when using Discord.py?",
+        "url": "https://stackoverflow.com/questions/79405483/why-are-all-attachments-is-empty-when-using-discord-py",
+        "page": 2
+    },
+    {
+        "title": "Accesing Security Actions",
+        "url": "https://stackoverflow.com/questions/79404483/accesing-security-actions",
+        "page": 2
+    },
+    {
+        "title": "Problem with log in on discord with captcha using selenium",
+        "url": "https://stackoverflow.com/questions/79401342/problem-with-log-in-on-discord-with-captcha-using-selenium",
+        "page": 3
+    },
+    {
+        "title": "Discord JDA getVoiceState() returning NULL",
+        "url": "https://stackoverflow.com/questions/79389878/discord-jda-getvoicestate-returning-null",
+        "page": 3
+    },
+    {
+        "title": "How can I enable my bot (ElizaOS) to post an image to a message on discord?",
+        "url": "https://stackoverflow.com/questions/79389023/how-can-i-enable-my-bot-elizaos-to-post-an-image-to-a-message-on-discord",
+        "page": 3
+    },
+    {
+        "title": "Why 0auth can not able to read user to whitelist them?",
+        "url": "https://stackoverflow.com/questions/79388345/why-0auth-can-not-able-to-read-user-to-whitelist-them",
+        "page": 3
+    },
+    {
+        "title": "Swift Discord OAuth2 redirect URi not supported by Client",
+        "url": "https://stackoverflow.com/questions/79379871/swift-discord-oauth2-redirect-uri-not-supported-by-client",
+        "page": 3
+    },
+    {
+        "title": "Discord Bot in python stop running",
+        "url": "https://stackoverflow.com/questions/79379585/discord-bot-in-python-stop-running",
+        "page": 3
+    },
+    {
+        "title": "Python Bot That Repeats Deleted Messages on Discord (Issue)",
+        "url": "https://stackoverflow.com/questions/79374169/python-bot-that-repeats-deleted-messages-on-discord-issue",
+        "page": 3
+    },
+    {
+        "title": "DiscordAPIError[10062]: Unknown interaction at handleErrors",
+        "url": "https://stackoverflow.com/questions/79373551/discordapierror10062-unknown-interaction-at-handleerrors",
+        "page": 3
+    },
+    {
+        "title": "ffmpeg process 20564 successfully terminated with return code of 3436169992",
+        "url": "https://stackoverflow.com/questions/79367477/ffmpeg-process-20564-successfully-terminated-with-return-code-of-3436169992",
+        "page": 3
+    },
+    {
+        "title": "Audio recording on chrome windows but not on chrome android",
+        "url": "https://stackoverflow.com/questions/79366612/audio-recording-on-chrome-windows-but-not-on-chrome-android",
+        "page": 3
+    },
+    {
+        "title": "Discord.py selfbot keeps giving me the error",
+        "url": "https://stackoverflow.com/questions/79366560/discord-py-selfbot-keeps-giving-me-the-error",
+        "page": 3
+    },
+    {
+        "title": "How to secure discord bot token for a gateway connection in a public angular client?",
+        "url": "https://stackoverflow.com/questions/79359863/how-to-secure-discord-bot-token-for-a-gateway-connection-in-a-public-angular-cli",
+        "page": 3
+    },
+    {
+        "title": "How to serialize discord API button interactions",
+        "url": "https://stackoverflow.com/questions/79353842/how-to-serialize-discord-api-button-interactions",
+        "page": 3
+    },
+    {
+        "title": "Discord Bot commands not getting deployed (stuck at deploying)",
+        "url": "https://stackoverflow.com/questions/79353515/discord-bot-commands-not-getting-deployed-stuck-at-deploying",
+        "page": 3
+    },
+    {
+        "title": "Internal network error code 40333 when interacting with the discord api via google apps scripts",
+        "url": "https://stackoverflow.com/questions/79349256/internal-network-error-code-40333-when-interacting-with-the-discord-api-via-goog",
+        "page": 3
+    },
+    {
+        "title": "Why is this throwing requests.exceptions.HTTPError?",
+        "url": "https://stackoverflow.com/questions/79348379/why-is-this-throwing-requests-exceptions-httperror",
+        "page": 3
+    },
+    {
+        "title": "Creating a command - Discord bot in Python",
+        "url": "https://stackoverflow.com/questions/79347951/creating-a-command-discord-bot-in-python",
+        "page": 3
+    },
+    {
+        "title": "How to change response sent by discord bot with a button",
+        "url": "https://stackoverflow.com/questions/79347065/how-to-change-response-sent-by-discord-bot-with-a-button",
+        "page": 3
+    },
+    {
+        "title": "Discord Embed Showing Emoji ID?",
+        "url": "https://stackoverflow.com/questions/79344738/discord-embed-showing-emoji-id",
+        "page": 3
+    },
+    {
+        "title": "Eris read embeds",
+        "url": "https://stackoverflow.com/questions/79329763/eris-read-embeds",
+        "page": 3
+    },
+    {
+        "title": "TransactionAborted when setting Discord Rich Presence through Discord Game SDK in C#",
+        "url": "https://stackoverflow.com/questions/79327437/transactionaborted-when-setting-discord-rich-presence-through-discord-game-sdk-i",
+        "page": 3
+    },
+    {
+        "title": "How to add mathematical operations with dice rolls to my Discord bot?",
+        "url": "https://stackoverflow.com/questions/79324846/how-to-add-mathematical-operations-with-dice-rolls-to-my-discord-bot",
+        "page": 3
+    },
+    {
+        "title": "Discord.py bot 403 Forbidden (error code:50001): Missing Access when sending a message in a dm",
+        "url": "https://stackoverflow.com/questions/79316793/discord-py-bot-403-forbidden-error-code50001-missing-access-when-sending-a-m",
+        "page": 3
+    },
+    {
+        "title": "problem getting original emojis from discord [discord.js/discordjs v14]",
+        "url": "https://stackoverflow.com/questions/79316645/problem-getting-original-emojis-from-discord-discord-js-discordjs-v14",
+        "page": 3
+    },
+    {
+        "title": "Discord.py MyClient(Commands.Bot) and commands.Greedy",
+        "url": "https://stackoverflow.com/questions/79313370/discord-py-myclientcommands-bot-and-commands-greedy",
+        "page": 3
+    },
+    {
+        "title": "DISCORD BOT - Is it possible to track how long a user is speaking during a session?",
+        "url": "https://stackoverflow.com/questions/79302185/discord-bot-is-it-possible-to-track-how-long-a-user-is-speaking-during-a-sessi",
+        "page": 3
+    },
+    {
+        "title": "Trying to limit the suggested roles while typing commands",
+        "url": "https://stackoverflow.com/questions/79289888/trying-to-limit-the-suggested-roles-while-typing-commands",
+        "page": 3
+    },
+    {
+        "title": "Discord.py won't detect messages and $hello doesn't work",
+        "url": "https://stackoverflow.com/questions/79286060/discord-py-wont-detect-messages-and-hello-doesnt-work",
+        "page": 3
+    },
+    {
+        "title": "Cannot play a resource that has already ended. / Could not extract functions",
+        "url": "https://stackoverflow.com/questions/79283313/cannot-play-a-resource-that-has-already-ended-could-not-extract-functions",
+        "page": 3
+    },
+    {
+        "title": "Python: Discord Button Rows with different amount of buttons",
+        "url": "https://stackoverflow.com/questions/79283066/python-discord-button-rows-with-different-amount-of-buttons",
+        "page": 3
+    },
+    {
+        "title": "How can I limit a slash command to only one, specific user?",
+        "url": "https://stackoverflow.com/questions/79280563/how-can-i-limit-a-slash-command-to-only-one-specific-user",
+        "page": 3
+    },
+    {
+        "title": "Discord.py using on_voice_state_update",
+        "url": "https://stackoverflow.com/questions/79279893/discord-py-using-on-voice-state-update",
+        "page": 3
+    },
+    {
+        "title": "undefined reference to library functions that I have properly linked? [duplicate]",
+        "url": "https://stackoverflow.com/questions/79273741/undefined-reference-to-library-functions-that-i-have-properly-linked",
+        "page": 3
+    },
+    {
+        "title": "Rate limitations and slash commands with Discord API (discord.py)",
+        "url": "https://stackoverflow.com/questions/79273247/rate-limitations-and-slash-commands-with-discord-api-discord-py",
+        "page": 3
+    },
+    {
+        "title": "I was trying to use the discord api. But when i enter import discord, it gets several module errors from within the package",
+        "url": "https://stackoverflow.com/questions/79258009/i-was-trying-to-use-the-discord-api-but-when-i-enter-import-discord-it-gets-se",
+        "page": 3
+    },
+    {
+        "title": "ImportError: cannot import name \"Modal\"",
+        "url": "https://stackoverflow.com/questions/79252331/importerror-cannot-import-name-modal",
+        "page": 3
+    },
+    {
+        "title": "How to Retrieve Profile Effect from the Discord User Object?",
+        "url": "https://stackoverflow.com/questions/79251248/how-to-retrieve-profile-effect-from-the-discord-user-object",
+        "page": 3
+    },
+    {
+        "title": "Get server boost level for Discord bot",
+        "url": "https://stackoverflow.com/questions/79243706/get-server-boost-level-for-discord-bot",
+        "page": 3
+    },
+    {
+        "title": "discord.ext.commands.errors.CommandNotFound: Command \"coucou\" is not found",
+        "url": "https://stackoverflow.com/questions/79233310/discord-ext-commands-errors-commandnotfound-command-coucou-is-not-found",
+        "page": 3
+    },
+    {
+        "title": "How to reset select menu to placeholder in discord.js?",
+        "url": "https://stackoverflow.com/questions/79220507/how-to-reset-select-menu-to-placeholder-in-discord-js",
+        "page": 3
+    },
+    {
+        "title": "Reddit API script for Discord bot not working",
+        "url": "https://stackoverflow.com/questions/79216524/reddit-api-script-for-discord-bot-not-working",
+        "page": 3
+    },
+    {
+        "title": "404 Unknown interaction error caused when attempting to sync commands in Discord.py",
+        "url": "https://stackoverflow.com/questions/79216358/404-unknown-interaction-error-caused-when-attempting-to-sync-commands-in-discord",
+        "page": 3
+    },
+    {
+        "title": "discord.py view button interaction failed whenever \"Shared ID None has successfully RESUMED session\"",
+        "url": "https://stackoverflow.com/questions/79215193/discord-py-view-button-interaction-failed-whenever-shared-id-none-has-successfu",
+        "page": 3
+    },
+    {
+        "title": "Discord.py not responding",
+        "url": "https://stackoverflow.com/questions/79211234/discord-py-not-responding",
+        "page": 3
+    },
+    {
+        "title": "Is it possible to make a Discord bot print out text from a .log file? (Received some errors)",
+        "url": "https://stackoverflow.com/questions/79205785/is-it-possible-to-make-a-discord-bot-print-out-text-from-a-log-file-received",
+        "page": 3
+    },
+    {
+        "title": "have Discord.js bot support both slash commands and prefix",
+        "url": "https://stackoverflow.com/questions/79182844/have-discord-js-bot-support-both-slash-commands-and-prefix",
+        "page": 3
+    },
+    {
+        "title": "\"MessagedEmbed field values must be non-empty strings\" and \"Cannot read properties of undefined (reading 'Link') error message",
+        "url": "https://stackoverflow.com/questions/79165265/messagedembed-field-values-must-be-non-empty-strings-and-cannot-read-properti",
+        "page": 3
+    },
+    {
+        "title": "filter bot messages in a discord channel",
+        "url": "https://stackoverflow.com/questions/79156557/filter-bot-messages-in-a-discord-channel",
+        "page": 3
+    },
+    {
+        "title": "How can i get receive messages in a DMChannel by an user?",
+        "url": "https://stackoverflow.com/questions/79154135/how-can-i-get-receive-messages-in-a-dmchannel-by-an-user",
+        "page": 3
+    },
+    {
+        "title": "Access the context variable without passing it in from a command in a lower level function in a Discord bot?",
+        "url": "https://stackoverflow.com/questions/79153438/access-the-context-variable-without-passing-it-in-from-a-command-in-a-lower-leve",
+        "page": 3
+    },
+    {
+        "title": "Modify Guild Channel Positions",
+        "url": "https://stackoverflow.com/questions/79134711/modify-guild-channel-positions",
+        "page": 4
+    },
+    {
+        "title": "add button interaction logic to an existing Discord message",
+        "url": "https://stackoverflow.com/questions/79133421/add-button-interaction-logic-to-an-existing-discord-message",
+        "page": 4
+    },
+    {
+        "title": "White noise when Exoplayer streams music to discord bot",
+        "url": "https://stackoverflow.com/questions/79129555/white-noise-when-exoplayer-streams-music-to-discord-bot",
+        "page": 4
+    },
+    {
+        "title": "Discord oAuth API - 400 error getting token from code",
+        "url": "https://stackoverflow.com/questions/79128637/discord-oauth-api-400-error-getting-token-from-code",
+        "page": 4
+    },
+    {
+        "title": "What steps are needed to save the result of this AI faceswapper as an image?",
+        "url": "https://stackoverflow.com/questions/79124273/what-steps-are-needed-to-save-the-result-of-this-ai-faceswapper-as-an-image",
+        "page": 4
+    },
+    {
+        "title": "Discord modal error on submission. The modal window gives a \"Something went wrong\" error, but no errors in console",
+        "url": "https://stackoverflow.com/questions/79121572/discord-modal-error-on-submission-the-modal-window-gives-a-something-went-wron",
+        "page": 4
+    },
+    {
+        "title": "forwarding emails from gmail to discord using zapier (content wont show)",
+        "url": "https://stackoverflow.com/questions/79108175/forwarding-emails-from-gmail-to-discord-using-zapier-content-wont-show",
+        "page": 4
+    },
+    {
+        "title": "In discord Js guildmemberupdate not emitting when avatar has changed?",
+        "url": "https://stackoverflow.com/questions/79102102/in-discord-js-guildmemberupdate-not-emitting-when-avatar-has-changed",
+        "page": 4
+    },
+    {
+        "title": "About import error by using py-cord and discord.py",
+        "url": "https://stackoverflow.com/questions/79096172/about-import-error-by-using-py-cord-and-discord-py",
+        "page": 4
+    },
+    {
+        "title": "Discord.js message_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE] Error",
+        "url": "https://stackoverflow.com/questions/79093077/discord-js-message-referencemessage-reference-unknown-message-error",
+        "page": 4
+    },
+    {
+        "title": "How to make a discord bot print my response that I have set",
+        "url": "https://stackoverflow.com/questions/79088584/how-to-make-a-discord-bot-print-my-response-that-i-have-set",
+        "page": 4
+    },
+    {
+        "title": "Problem with synchronizing interaction commands on discord bot in python",
+        "url": "https://stackoverflow.com/questions/79087279/problem-with-synchronizing-interaction-commands-on-discord-bot-in-python",
+        "page": 4
+    },
+    {
+        "title": "Discord py not sending messages when being called from the after method from voice.play(... after=...)",
+        "url": "https://stackoverflow.com/questions/79080643/discord-py-not-sending-messages-when-being-called-from-the-after-method-from-voi",
+        "page": 4
+    },
+    {
+        "title": "Discord Slash Commands In Python Not Working",
+        "url": "https://stackoverflow.com/questions/79080582/discord-slash-commands-in-python-not-working",
+        "page": 4
+    },
+    {
+        "title": "How to update existing message and then reply without InteractionAlreadyReplied error, discord js",
+        "url": "https://stackoverflow.com/questions/79079353/how-to-update-existing-message-and-then-reply-without-interactionalreadyreplied",
+        "page": 4
+    },
+    {
+        "title": "My discord music bot dont working. Not receiving commands",
+        "url": "https://stackoverflow.com/questions/79058941/my-discord-music-bot-dont-working-not-receiving-commands",
+        "page": 4
+    },
+    {
+        "title": "Message Create event not getting fired in discord.js",
+        "url": "https://stackoverflow.com/questions/79057852/message-create-event-not-getting-fired-in-discord-js",
+        "page": 4
+    },
+    {
+        "title": "discord.py 2.4.0: Saving data, when closing modal",
+        "url": "https://stackoverflow.com/questions/79055681/discord-py-2-4-0-saving-data-when-closing-modal",
+        "page": 4
+    },
+    {
+        "title": "Sharded Discord.js bot resets to initial presence status",
+        "url": "https://stackoverflow.com/questions/79047421/sharded-discord-js-bot-resets-to-initial-presence-status",
+        "page": 4
+    },
+    {
+        "title": "How can i correctly format string widths inside of a discord Embed?",
+        "url": "https://stackoverflow.com/questions/79046498/how-can-i-correctly-format-string-widths-inside-of-a-discord-embed",
+        "page": 4
+    },
+    {
+        "title": "Pinging a role with discord js v14",
+        "url": "https://stackoverflow.com/questions/79037607/pinging-a-role-with-discord-js-v14",
+        "page": 4
+    },
+    {
+        "title": "Google Form to Discord Webhook Not Working",
+        "url": "https://stackoverflow.com/questions/79034900/google-form-to-discord-webhook-not-working",
+        "page": 4
+    },
+    {
+        "title": "How to call functions with Discord.py?",
+        "url": "https://stackoverflow.com/questions/79034187/how-to-call-functions-with-discord-py",
+        "page": 4
+    },
+    {
+        "title": "Discord.net/Discord.py record audio stream of user or whole channel",
+        "url": "https://stackoverflow.com/questions/79033106/discord-net-discord-py-record-audio-stream-of-user-or-whole-channel",
+        "page": 4
+    },
+    {
+        "title": "How to create MySQL function to update database if a value reaches 800?",
+        "url": "https://stackoverflow.com/questions/79020207/how-to-create-mysql-function-to-update-database-if-a-value-reaches-800",
+        "page": 4
+    },
+    {
+        "title": "How to update a database using a loop?",
+        "url": "https://stackoverflow.com/questions/79019685/how-to-update-a-database-using-a-loop",
+        "page": 4
+    },
+    {
+        "title": "DiscordAPIError[40060]: Interaction has already been acknowledged. Discord.js",
+        "url": "https://stackoverflow.com/questions/79013029/discordapierror40060-interaction-has-already-been-acknowledged-discord-js",
+        "page": 4
+    },
+    {
+        "title": "Is discord.py on_message listener a privacy issue?",
+        "url": "https://stackoverflow.com/questions/79011931/is-discord-py-on-message-listener-a-privacy-issue",
+        "page": 4
+    },
+    {
+        "title": "discord.py Giveaway Bot Issue",
+        "url": "https://stackoverflow.com/questions/79010364/discord-py-giveaway-bot-issue",
+        "page": 4
+    },
+    {
+        "title": "Download using Discord bot",
+        "url": "https://stackoverflow.com/questions/79008378/download-using-discord-bot",
+        "page": 4
+    },
+    {
+        "title": "sending modal after series of select menu",
+        "url": "https://stackoverflow.com/questions/78993387/sending-modal-after-series-of-select-menu",
+        "page": 4
+    },
+    {
+        "title": "How i can use Dicord event ID to ping it in discord chanel?",
+        "url": "https://stackoverflow.com/questions/78977966/how-i-can-use-dicord-event-id-to-ping-it-in-discord-chanel",
+        "page": 4
+    },
+    {
+        "title": "Space separated words (strings) in user input in discordpy",
+        "url": "https://stackoverflow.com/questions/78975606/space-separated-words-strings-in-user-input-in-discordpy",
+        "page": 4
+    },
+    {
+        "title": "How to fix a not working discordbot? java-lang",
+        "url": "https://stackoverflow.com/questions/78962568/how-to-fix-a-not-working-discordbot-java-lang",
+        "page": 4
+    },
+    {
+        "title": "My discord bot does not register the commands",
+        "url": "https://stackoverflow.com/questions/78961158/my-discord-bot-does-not-register-the-commands",
+        "page": 4
+    },
+    {
+        "title": "Discord Bot with Discord.py 2.0 - Unable to show image from assets parameter in discord.Streaming()",
+        "url": "https://stackoverflow.com/questions/78960254/discord-bot-with-discord-py-2-0-unable-to-show-image-from-assets-parameter-in",
+        "page": 4
+    },
+    {
+        "title": "discord.js MessageTyping errer",
+        "url": "https://stackoverflow.com/questions/78959923/discord-js-messagetyping-errer",
+        "page": 4
+    },
+    {
+        "title": "Discord automation",
+        "url": "https://stackoverflow.com/questions/78942903/discord-automation",
+        "page": 4
+    },
+    {
+        "title": "Discord Bot can't edit its message (discord.js V14)",
+        "url": "https://stackoverflow.com/questions/78937687/discord-bot-cant-edit-its-message-discord-js-v14",
+        "page": 4
+    },
+    {
+        "title": "Reddit auth error 401 when running autopost command in discord.js bot",
+        "url": "https://stackoverflow.com/questions/78935984/reddit-auth-error-401-when-running-autopost-command-in-discord-js-bot",
+        "page": 4
+    },
+    {
+        "title": "Open Graph Embeds dont work over traefik proxy",
+        "url": "https://stackoverflow.com/questions/78933152/open-graph-embeds-dont-work-over-traefik-proxy",
+        "page": 4
+    },
+    {
+        "title": "(PyCharm) Discord bot (written in python) if \"Hello\" in message.content.lowe(): Not responding",
+        "url": "https://stackoverflow.com/questions/78929731/pycharm-discord-bot-written-in-python-if-hello-in-message-content-lowe",
+        "page": 4
+    },
+    {
+        "title": "Very simple slash command failing with \"This interaction failed\"",
+        "url": "https://stackoverflow.com/questions/78922682/very-simple-slash-command-failing-with-this-interaction-failed",
+        "page": 4
+    },
+    {
+        "title": "I want to make my Discord music bot run faster by starting to play the video while it's still loading. What can I do? (I’m new to coding)",
+        "url": "https://stackoverflow.com/questions/78910376/i-want-to-make-my-discord-music-bot-run-faster-by-starting-to-play-the-video-whi",
+        "page": 4
+    },
+    {
+        "title": "Discord JS v14 Bot Script Not Working (Specifically, GuildCreate and GuildMemberAdd not triggering)",
+        "url": "https://stackoverflow.com/questions/78910135/discord-js-v14-bot-script-not-working-specifically-guildcreate-and-guildmember",
+        "page": 4
+    },
+    {
+        "title": "How should I go about importing one module from another module, where the first module itself is importing a different module?",
+        "url": "https://stackoverflow.com/questions/78904223/how-should-i-go-about-importing-one-module-from-another-module-where-the-first",
+        "page": 4
+    },
+    {
+        "title": "TypeError: options.getTextImputValue is not a function",
+        "url": "https://stackoverflow.com/questions/78903761/typeerror-options-gettextimputvalue-is-not-a-function",
+        "page": 4
+    },
+    {
+        "title": "How can I display an error when I enter an invalid parameter in the app command autocomplete in discord.py?",
+        "url": "https://stackoverflow.com/questions/78896698/how-can-i-display-an-error-when-i-enter-an-invalid-parameter-in-the-app-command",
+        "page": 4
+    },
+    {
+        "title": "An error occurs when sending a message containing Japanese to Discord from Raspberry Pi Pico W (MicroPython)",
+        "url": "https://stackoverflow.com/questions/78896429/an-error-occurs-when-sending-a-message-containing-japanese-to-discord-from-raspb",
+        "page": 4
+    },
+    {
+        "title": "how to get lines from message in discord.py",
+        "url": "https://stackoverflow.com/questions/78896366/how-to-get-lines-from-message-in-discord-py",
+        "page": 4
+    },
+    {
+        "title": "I Can't Run Application Command with Discord.js v14",
+        "url": "https://stackoverflow.com/questions/78894264/i-cant-run-application-command-with-discord-js-v14",
+        "page": 5
+    },
+    {
+        "title": "cannot access message id beacuse the interaction.response.send_message() returns none with discord.py",
+        "url": "https://stackoverflow.com/questions/78893936/cannot-access-message-id-beacuse-the-interaction-response-send-message-returns",
+        "page": 5
+    },
+    {
+        "title": "How can I send messages to the unbanned user and what did I dо wrong?",
+        "url": "https://stackoverflow.com/questions/78888076/how-can-i-send-messages-to-the-unbanned-user-and-what-did-i-d%d0%be-wrong",
+        "page": 5
+    },
+    {
+        "title": "I want to fetch a data from another python file everytime i execute the other one",
+        "url": "https://stackoverflow.com/questions/78882800/i-want-to-fetch-a-data-from-another-python-file-everytime-i-execute-the-other-on",
+        "page": 5
+    },
+    {
+        "title": "Discord.py Slash commands in cogs not syncing",
+        "url": "https://stackoverflow.com/questions/78875777/discord-py-slash-commands-in-cogs-not-syncing",
+        "page": 5
+    },
+    {
+        "title": "How can I use python to scrape ping messages?",
+        "url": "https://stackoverflow.com/questions/78874973/how-can-i-use-python-to-scrape-ping-messages",
+        "page": 5
+    },
+    {
+        "title": "How to sync slash command to Group Chat or User DM?",
+        "url": "https://stackoverflow.com/questions/78873277/how-to-sync-slash-command-to-group-chat-or-user-dm",
+        "page": 5
+    },
+    {
+        "title": "PyCord Slashcommands : AttributeError: type object 'Interaction' has no attribute 'respond'",
+        "url": "https://stackoverflow.com/questions/78861201/pycord-slashcommands-attributeerror-type-object-interaction-has-no-attribut",
+        "page": 5
+    },
+    {
+        "title": "I am coding a Discord bot with Python. The command is working, but after it executes, instead of sending the message to the server, it gives an error",
+        "url": "https://stackoverflow.com/questions/78855918/i-am-coding-a-discord-bot-with-python-the-command-is-working-but-after-it-exec",
+        "page": 5
+    },
+    {
+        "title": "Discord bot / role",
+        "url": "https://stackoverflow.com/questions/78855491/discord-bot-role",
+        "page": 5
+    },
+    {
+        "title": "How to fix the \"reactions.values(...).filter is not a function\" error?",
+        "url": "https://stackoverflow.com/questions/78849903/how-to-fix-the-reactions-values-filter-is-not-a-function-error",
+        "page": 5
+    },
+    {
+        "title": "Discord js Using guild. but this error happens Cannot read properties of undefined (reading 'members')",
+        "url": "https://stackoverflow.com/questions/78846387/discord-js-using-guild-but-this-error-happens-cannot-read-properties-of-undefin",
+        "page": 5
+    },
+    {
+        "title": "invalid_scope when trying to request dm_channels.messages.write from Discord OAuth",
+        "url": "https://stackoverflow.com/questions/78839261/invalid-scope-when-trying-to-request-dm-channels-messages-write-from-discord-oau",
+        "page": 5
+    },
+    {
+        "title": "db.Collection Is Not a Constructor",
+        "url": "https://stackoverflow.com/questions/78834069/db-collection-is-not-a-constructor",
+        "page": 5
+    },
+    {
+        "title": "Is there a way to check if a specific user id exists within the server? without using cache || discord js",
+        "url": "https://stackoverflow.com/questions/78829174/is-there-a-way-to-check-if-a-specific-user-id-exists-within-the-server-without",
+        "page": 5
+    },
+    {
+        "title": "not preview image in embed : its starboard custom command use on yagpdb bot",
+        "url": "https://stackoverflow.com/questions/78828348/not-preview-image-in-embed-its-starboard-custom-command-use-on-yagpdb-bot",
+        "page": 5
+    },
+    {
+        "title": "discord.py not registering hybrid commands with user install inside of cogs",
+        "url": "https://stackoverflow.com/questions/78822111/discord-py-not-registering-hybrid-commands-with-user-install-inside-of-cogs",
+        "page": 5
+    },
+    {
+        "title": "how can I check if before.timed_out_until is before present or empty?",
+        "url": "https://stackoverflow.com/questions/78821821/how-can-i-check-if-before-timed-out-until-is-before-present-or-empty",
+        "page": 5
+    },
+    {
+        "title": "something is blocking the streaming print command - it appears when I end the bot",
+        "url": "https://stackoverflow.com/questions/78821292/something-is-blocking-the-streaming-print-command-it-appears-when-i-end-the-bo",
+        "page": 5
+    },
+    {
+        "title": "how to read the messages in a thread in a forum channel [closed]",
+        "url": "https://stackoverflow.com/questions/78816929/how-to-read-the-messages-in-a-thread-in-a-forum-channel",
+        "page": 5
+    },
+    {
+        "title": "Error thrown by discord snowtransfer: [ERROR] Error when sending Discord DM: TypeError: Cannot read properties of undefined (reading 'id')",
+        "url": "https://stackoverflow.com/questions/78814503/error-thrown-by-discord-snowtransfer-error-error-when-sending-discord-dm-typ",
+        "page": 5
+    },
+    {
+        "title": "How do upload an image from URL to Discord to be used for an embed?",
+        "url": "https://stackoverflow.com/questions/78813418/how-do-upload-an-image-from-url-to-discord-to-be-used-for-an-embed",
+        "page": 5
+    },
+    {
+        "title": "Why my discord modal when i click didn't close?",
+        "url": "https://stackoverflow.com/questions/78812283/why-my-discord-modal-when-i-click-didnt-close",
+        "page": 5
+    },
+    {
+        "title": "Discord bot not realizing it has command",
+        "url": "https://stackoverflow.com/questions/78810606/discord-bot-not-realizing-it-has-command",
+        "page": 5
+    },
+    {
+        "title": "discord.py is launching but not responding to messages",
+        "url": "https://stackoverflow.com/questions/78809395/discord-py-is-launching-but-not-responding-to-messages",
+        "page": 5
+    },
+    {
+        "title": "How do I get Application Emoji",
+        "url": "https://stackoverflow.com/questions/78807976/how-do-i-get-application-emoji",
+        "page": 5
+    },
+    {
+        "title": "How can i read and write to cells in the same function?",
+        "url": "https://stackoverflow.com/questions/78807472/how-can-i-read-and-write-to-cells-in-the-same-function",
+        "page": 5
+    },
+    {
+        "title": "Get the User ID of who sent the slash command in Discordrb",
+        "url": "https://stackoverflow.com/questions/78806077/get-the-user-id-of-who-sent-the-slash-command-in-discordrb",
+        "page": 5
+    },
+    {
+        "title": "Unable to output correct hex color in Ruby using Discordrb",
+        "url": "https://stackoverflow.com/questions/78805506/unable-to-output-correct-hex-color-in-ruby-using-discordrb",
+        "page": 5
+    },
+    {
+        "title": "How can i write to a specific cell in a Google sheets range?",
+        "url": "https://stackoverflow.com/questions/78805052/how-can-i-write-to-a-specific-cell-in-a-google-sheets-range",
+        "page": 5
+    },
+    {
+        "title": "Can I do tree.command, but for special group of users?",
+        "url": "https://stackoverflow.com/questions/78803835/can-i-do-tree-command-but-for-special-group-of-users",
+        "page": 5
+    },
+    {
+        "title": "How can I decrypt voice data received from Discord?",
+        "url": "https://stackoverflow.com/questions/78797300/how-can-i-decrypt-voice-data-received-from-discord",
+        "page": 5
+    },
+    {
+        "title": "How can I use specific cells in a Google sheets range?",
+        "url": "https://stackoverflow.com/questions/78793653/how-can-i-use-specific-cells-in-a-google-sheets-range",
+        "page": 5
+    },
+    {
+        "title": "Discord.js Auto Register Slash Commands",
+        "url": "https://stackoverflow.com/questions/78791132/discord-js-auto-register-slash-commands",
+        "page": 5
+    },
+    {
+        "title": "Tracking Discord's window location in React",
+        "url": "https://stackoverflow.com/questions/78787099/tracking-discords-window-location-in-react",
+        "page": 5
+    },
+    {
+        "title": "How to verify if a member has permission to do a Slash Command",
+        "url": "https://stackoverflow.com/questions/78783926/how-to-verify-if-a-member-has-permission-to-do-a-slash-command",
+        "page": 5
+    },
+    {
+        "title": "discord.py app command error handling won't work because responses take >5 seconds",
+        "url": "https://stackoverflow.com/questions/78783219/discord-py-app-command-error-handling-wont-work-because-responses-take-5-secon",
+        "page": 5
+    },
+    {
+        "title": "how can I make the activity part of the bot's profile invisible when the bot is active?",
+        "url": "https://stackoverflow.com/questions/78778244/how-can-i-make-the-activity-part-of-the-bots-profile-invisible-when-the-bot-is",
+        "page": 5
+    },
+    {
+        "title": "How do I scroll to the bottom of the page using tampermonkey?",
+        "url": "https://stackoverflow.com/questions/78775943/how-do-i-scroll-to-the-bottom-of-the-page-using-tampermonkey",
+        "page": 5
+    },
+    {
+        "title": "I'm making a program to prevent discord token theft",
+        "url": "https://stackoverflow.com/questions/78773555/im-making-a-program-to-prevent-discord-token-theft",
+        "page": 5
+    },
+    {
+        "title": "My Discord bot doesn't send message when I type a command",
+        "url": "https://stackoverflow.com/questions/78766709/my-discord-bot-doesnt-send-message-when-i-type-a-command",
+        "page": 5
+    },
+    {
+        "title": "commands.check analog for buttons?",
+        "url": "https://stackoverflow.com/questions/78758335/commands-check-analog-for-buttons",
+        "page": 5
+    },
+    {
+        "title": "I am making a discord bot but it won't start up when I run the 'startup.js' file",
+        "url": "https://stackoverflow.com/questions/78757058/i-am-making-a-discord-bot-but-it-wont-start-up-when-i-run-the-startup-js-file",
+        "page": 5
+    },
+    {
+        "title": "I can't understand why user data isn't being entered into the database",
+        "url": "https://stackoverflow.com/questions/78757044/i-cant-understand-why-user-data-isnt-being-entered-into-the-database",
+        "page": 5
+    },
+    {
+        "title": "The gif embedded into my link is not showing on discord",
+        "url": "https://stackoverflow.com/questions/78756742/the-gif-embedded-into-my-link-is-not-showing-on-discord",
+        "page": 5
+    },
+    {
+        "title": "Webhook Sent 400 {\"embeds\": [\"0\"]}",
+        "url": "https://stackoverflow.com/questions/78752344/webhook-sent-400-embeds-0",
+        "page": 5
+    },
+    {
+        "title": "How to fetch Discord messages via a user token",
+        "url": "https://stackoverflow.com/questions/78751751/how-to-fetch-discord-messages-via-a-user-token",
+        "page": 5
+    },
+    {
+        "title": "Error: TypeError: user.send is not a function",
+        "url": "https://stackoverflow.com/questions/78750739/error-typeerror-user-send-is-not-a-function",
+        "page": 5
+    },
+    {
+        "title": "Discord bio change using HTTP API",
+        "url": "https://stackoverflow.com/questions/78747667/discord-bio-change-using-http-api",
+        "page": 5
+    },
+    {
+        "title": "How can I change the choices of an Option depending on the writer of the slash command in pycord?",
+        "url": "https://stackoverflow.com/questions/78746792/how-can-i-change-the-choices-of-an-option-depending-on-the-writer-of-the-slash-c",
+        "page": 5
+    }
+]
