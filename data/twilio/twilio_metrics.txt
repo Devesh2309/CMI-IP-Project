@@ -1,0 +1,166 @@
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics
+Loaded graph:  data\twilio\graph\feature_graph.pkl
+  Total nodes : 76721
+  Total edges : 76150
+
+=======================================================
+  METRIC 1 — Root Ratio
+=======================================================
+  Total nodes  : 38869
+  Root nodes   : 2999
+  Root ratio   : 7.7%
+  STATUS → GOOD  (< 30% — well-connected hierarchy)
+
+=======================================================
+  METRIC 2 — Subtree Size Distribution
+=======================================================
+  Number of roots        : 2999
+  Avg subtree size       : 13.0 nodes
+  Largest subtree        : 295 nodes  ('docs__voice__sdks__android__3x-changelog_md')
+  Smallest subtree       : 2 nodes
+  Largest share of graph : 0.8%
+  STATUS → GOOD  (no single root dominates)
+
+  Top 5 roots by subtree size:
+     295 nodes ( 0.8%)  depth=4  →  docs__voice__sdks__android__3x-changelog_md
+     140 nodes ( 0.4%)  depth=5  →  docs__voice__sdks__javascript__v1__changelog
+     140 nodes ( 0.4%)  depth=3  →  docs__glossary
+     136 nodes ( 0.3%)  depth=3  →  docs__sendgrid__glossary
+     120 nodes ( 0.3%)  depth=4  →  docs__voice__sdks__android__3x-changelog
+
+=======================================================
+  METRIC 3 — Max Depth
+=======================================================
+  Max depth across all roots : 6
+  Avg depth across roots     : 2.76
+  Min depth across roots     : 1
+  STATUS → BAD  (< 3 — hierarchy too shallow, features too vague)
+
+  Distribution of root depths:
+    depth 1  |  ████████████████████████████████████████████████████████████████████████████████  (197 roots)
+    depth 2  |  ████████████████████████████████████████████████████████████████████████████████  (780 roots)
+    depth 3  |  ████████████████████████████████████████████████████████████████████████████████  (1615 roots)
+    depth 4  |  ████████████████████████████████████████████████████████████████████████████████  (372 roots)
+    depth 5  |  ██████████████████████████████████  (34 roots)
+    depth 6  |  █  (1 roots)
+
+=======================================================
+  METRIC 4 — Support Count Distribution
+=======================================================
+  Total nodes              : 38869
+  Nodes seen only once     : 20856  (53.7%)
+  Avg support count        : 51.79
+  Median support count     : 1.0
+  Max support count        : 761  ('Info')
+  STATUS → ACCEPTABLE  (40–60%, moderate noise)
+
+  Support count buckets:
+    seen 1        |  ████████████████████████████████████████  (20856)
+    seen 2–3      |  ████████████████████████████████████████  (8195)
+    seen 4–9      |  ████████████████████████████████████████  (2464)
+    seen 10–49    |  ████████████████████████████████████████  (1543)
+    seen 50+      |  ████████████████████████████████████████  (5811)
+
+=======================================================
+  METRIC 5 — Heading Level Distribution
+=======================================================
+  Level         Count    Share  Bar
+  ---------- -------- --------  ---
+  H0             2999     7.7%  ███
+  H1             6510    16.7%  ████████
+  H2            14461    37.2%  ██████████████████
+  H3            11610    29.9%  ██████████████
+  H4             2640     6.8%  ███
+  H5              194     0.5%
+  H6              455     1.2%
+
+  STATUS → ACCEPTABLE  (H2 dominates — slightly shallow)
+
+
+
+=======================================================
+  GRAPH METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Root ratio                          7.7%            GOOD
+  Largest subtree share               0.8%            GOOD
+  Avg hierarchy depth                 2.76            BAD
+  Single-occurrence node ratio        53.7%           OK
+  Peak heading level                  H2              OK
+
+Loaded 250 classified results from: data\issues\twilio_classified.pkl
+
+=======================================================
+  METRIC 6 — Uncertain Rate
+=======================================================
+  Total issues classified : 250
+  Returned 'Uncertain'    : 0
+  Uncertain rate          : 0.0%
+  STATUS → GOOD  (< 20%)
+
+=======================================================
+  METRIC 7 — Average Confidence Score  (accepted only)
+=======================================================
+  Accepted classifications : 250
+  Avg confidence score     : 0.6985
+  Min / Max                : 0.4063 / 0.8528
+  STATUS → GOOD  (> 0.45)
+
+=======================================================
+  METRIC 8 — Top-1 vs Top-2 Confidence Gap
+=======================================================
+  Issues with 2+ candidates : 250
+  Avg gap                   : 0.0146
+  Min / Max gap             : 0.0000 / 0.0972
+  STATUS → BAD  (< 0.03 — classifier is effectively guessing)
+
+  Most ambiguous classifications (smallest gap):
+    gap=0.0000  |  "docs__iam__api → Our API: the basics"
+                 vs "en-us__call-recording → Programmable Call Recording"
+    Issue: Use Twilio to send text message with meta data for recorded inbound voice call
+    gap=0.0000  |  "en-us__blog__sms-delivery-reports-overview → Guide To SMS De"
+                 vs "docs__conversations__connect-to-studio → Connecting Twilio S"
+    Issue: Exporting Twilio SMS and call metrics so they can be imported into Dynatrace?
+    gap=0.0000  |  "docs__usage__tutorials__how-to-secure-your-django-project-by"
+                 vs "docs__usage__tutorials__how-to-secure-your-django-project-by"
+    Issue: Twilio Signature Validation - Python - Post Request Fail
+
+=======================================================
+  METRIC 9 — Evidence Count Per Classification
+=======================================================
+  Accepted classifications   : 250
+  Avg evidence chunks        : 5.00
+  Classifications w/ 0 chunks: 0
+  STATUS → GOOD  (> 1.5 chunks avg — well grounded)
+
+=======================================================
+  METRIC 10 — Node Coverage by Issues
+=======================================================
+  Feature nodes total         : 38869
+  Nodes matched by any issue  : 234
+  Coverage ratio              : 0.6%
+  Top winning node            : 'b69062f8-319b-4424-ba87-8b32c8da7f57'
+  Top node win share          : 1.6% of accepted issues
+  STATUS → GOOD  (no single node dominates)
+
+  Top 5 most-matched nodes:
+      4 issues ( 1.6%)  →  b69062f8-319b-4424-ba87-8b32c8da7f57
+      3 issues ( 1.2%)  →  7abf636f-9139-47f2-9732-3db32a9b99a6
+      2 issues ( 0.8%)  →  752aa9d8-eada-4d88-b6c2-eee657c5f2a3
+      2 issues ( 0.8%)  →  893e6099-4704-4450-8ab2-3f250c81b91c
+      2 issues ( 0.8%)  →  82a84e3a-1b9a-4434-90ec-23397c83e2ed
+
+
+
+=======================================================
+  RAG METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Uncertain rate                      0.0%            GOOD
+  Avg confidence (accepted)           0.6985          GOOD
+  Avg top-1 vs top-2 gap              0.0146          BAD
+  Avg evidence chunks                 5.00            GOOD
+  Node coverage ratio                 0.6%            —
+  Top node win share                  1.6%            GOOD
+
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>

@@ -1,61 +1,163 @@
-(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics  
-Loaded graph from: data\discord\graph\feature_graph.pkl
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics
+Loaded graph:  data\discord\graph\feature_graph.pkl
+  Total nodes : 21566
+  Total edges : 19752
 
 =======================================================
-  GRAPH METRICS
+  METRIC 1 — Root Ratio
 =======================================================
-
-METRIC 1 — Root Ratio
-  Total nodes : 11636
-  Root nodes  : 1944
-  Root ratio  : 16.7%
-
-METRIC 2 — Subtree Size Distribution
-  Avg subtree size : 5.99
-  Largest subtree  : 47
-  Smallest subtree : 1
-  Largest share    : 0.4%
-
-METRIC 3 — Depth
-  Max depth : 4
-  Avg depth : 1.64
-  Min depth : 0
-
-  Depth distribution:
-    depth 0 | ██ (2)
-    depth 1 | █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (917)
-    depth 2 | ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (799)
-    depth 3 | █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (225)
-    depth 4 | █ (1)
-
-METRIC 4 — Support Count
-  Nodes seen once : 11636 (100.0%)
-  Avg support     : 1.00
-
-METRIC 5 — Heading Levels
-  H0: 1944
-  H1: 4511
-  H2: 3524
-  H3: 369
-  H4: 1288
+  Total nodes  : 11636
+  Root nodes   : 1944
+  Root ratio   : 16.7%
+  STATUS → GOOD  (< 30% — well-connected hierarchy)
 
 =======================================================
-  RAG METRICS
+  METRIC 2 — Subtree Size Distribution
 =======================================================
+  Number of roots        : 1944
+  Avg subtree size       : 6.0 nodes
+  Largest subtree        : 47 nodes  ('hc_en-us_articles_360045138471-Discord-Voice-and-Video-Troubleshooting-Guide')
+  Smallest subtree       : 1 nodes
+  Largest share of graph : 0.4%
+  STATUS → GOOD  (no single root dominates)
 
-METRIC 6 — Uncertain Rate
-  5.6%
+  Top 5 roots by subtree size:
+      47 nodes ( 0.4%)  depth=3  →  hc_en-us_articles_360045138471-Discord-Voice-and-Video-Troubleshooting-Guide
+      46 nodes ( 0.4%)  depth=3  →  hc__en-us__articles__360045138471-Discord-Voice-and-Video-Troubleshooting-Guide
+      43 nodes ( 0.4%)  depth=3  →  hc_en-us_articles_360040816151-Go-Live-and-Screen-Share
+      42 nodes ( 0.4%)  depth=3  →  hc__en-us__articles__360040816151-Go-Live-and-Screen-Share
+      37 nodes ( 0.3%)  depth=3  →  hc_en-us_articles_360003953831-Discord-and-Xbox-Connection-FAQ
 
-METRIC 7 — Avg Confidence
-  0.5525
+=======================================================
+  METRIC 3 — Max Depth
+=======================================================
+  Max depth across all roots : 4
+  Avg depth across roots     : 1.64
+  Min depth across roots     : 0
+  STATUS → BAD  (< 3 — hierarchy too shallow, features too vague)
 
-METRIC 8 — Top-1 vs Top-2 Gap
-  0.0118
+  Distribution of root depths:
+    depth 0  |  ██  (2 roots)
+    depth 1  |  ████████████████████████████████████████████████████████████████████████████████  (917 roots)
+    depth 2  |  ████████████████████████████████████████████████████████████████████████████████  (799 roots)
+    depth 3  |  ████████████████████████████████████████████████████████████████████████████████  (225 roots)
+    depth 4  |  █  (1 roots)
 
-METRIC 9 — Evidence Count
-  5.00
+=======================================================
+  METRIC 4 — Support Count Distribution
+=======================================================
+  Total nodes              : 11636
+  Nodes seen only once     : 3809  (32.7%)
+  Avg support count        : 107.28
+  Median support count     : 2.0
+  Max support count        : 958  ('Related articles')
+  STATUS → GOOD  (< 40% single-occurrence nodes)
 
-METRIC 10 — Node Coverage
-  0.7%
+  Support count buckets:
+    seen 1        |  ████████████████████████████████████████  (3809)
+    seen 2–3      |  ████████████████████████████████████████  (4979)
+    seen 4–9      |  ████████████████████████████████████████  (631)
+    seen 10–49    |  ████████████████████████████████████████  (365)
+    seen 50+      |  ████████████████████████████████████████  (1852)
+
+=======================================================
+  METRIC 5 — Heading Level Distribution
+=======================================================
+  Level         Count    Share  Bar
+  ---------- -------- --------  ---
+  H0             1944    16.7%  ████████
+  H1             4511    38.8%  ███████████████████
+  H2             3524    30.3%  ███████████████
+  H3              369     3.2%  █
+  H4             1288    11.1%  █████
+
+  STATUS → BAD  (H1 dominates — graph is too flat)
+
+
+
+=======================================================
+  GRAPH METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Root ratio                          16.7%           GOOD
+  Largest subtree share               0.4%            GOOD
+  Avg hierarchy depth                 1.64            BAD
+  Single-occurrence node ratio        32.7%           GOOD
+  Peak heading level                  H1              BAD
+
+Loaded 250 classified results from: data\issues\discord_classified.pkl
+
+=======================================================
+  METRIC 6 — Uncertain Rate
+=======================================================
+  Total issues classified : 250
+  Returned 'Uncertain'    : 14
+  Uncertain rate          : 5.6%
+  STATUS → GOOD  (< 20%)
+
+=======================================================
+  METRIC 7 — Average Confidence Score  (accepted only)
+=======================================================
+  Accepted classifications : 236
+  Avg confidence score     : 0.5525
+  Min / Max                : 0.3172 / 0.8115
+  STATUS → GOOD  (> 0.45)
+
+=======================================================
+  METRIC 8 — Top-1 vs Top-2 Confidence Gap
+=======================================================
+  Issues with 2+ candidates : 236
+  Avg gap                   : 0.0118
+  Min / Max gap             : 0.0001 / 0.0738
+  STATUS → BAD  (< 0.03 — classifier is effectively guessing)
+
+  Most ambiguous classifications (smallest gap):
+    gap=0.0001  |  "hc_en-us_sections_201131308-Notifications → Sign in to Disco"
+                 vs "hc_en-us_sections_360007770512-Chat → Sign in to Discord Sup"
+    Issue: Trying to do discord auth without getting "CSRF Warning! State not equal in requ
+    gap=0.0001  |  "hc__en-us__articles__7933951485975-Visibility-of-Bot-Data-Ac"
+                 vs "hc_en-us_articles_7933951485975-Visibility-of-Bot-Data-Acces"
+    Issue: Discord bot PY interactions
+    gap=0.0001  |  "hc__en-us__articles__17828465914263-Profile-Effects → What A"
+                 vs "hc_en-us_articles_17828465914263-Profile-Effects → What Are "
+    Issue: How to Retrieve Profile Effect from the Discord User Object?
+
+=======================================================
+  METRIC 9 — Evidence Count Per Classification
+=======================================================
+  Accepted classifications   : 236
+  Avg evidence chunks        : 5.00
+  Classifications w/ 0 chunks: 0
+  STATUS → GOOD  (> 1.5 chunks avg — well grounded)
+
+=======================================================
+  METRIC 10 — Node Coverage by Issues
+=======================================================
+  Feature nodes total         : 11636
+  Nodes matched by any issue  : 153
+  Coverage ratio              : 1.3%
+  Top winning node            : '64346ae5-e052-4a10-a0e4-ca4ba53968bb'
+  Top node win share          : 7.6% of accepted issues
+  STATUS → GOOD  (no single node dominates)
+
+  Top 5 most-matched nodes:
+     18 issues ( 7.6%)  →  64346ae5-e052-4a10-a0e4-ca4ba53968bb
+     11 issues ( 4.7%)  →  077a3e1a-a1e6-4096-b1bd-5173dfe021ed
+     10 issues ( 4.2%)  →  a1bc6362-e237-4c23-9dfb-a0b07257b4b7
+      7 issues ( 3.0%)  →  3ee3df87-d9f0-49a8-a57c-142c0b0a2d68
+      5 issues ( 2.1%)  →  292c3f8d-c48c-4a24-92bb-6d8ffeb85348
+
+
+
+=======================================================
+  RAG METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Uncertain rate                      5.6%            GOOD
+  Avg confidence (accepted)           0.5525          GOOD
+  Avg top-1 vs top-2 gap              0.0118          BAD
+  Avg evidence chunks                 5.00            GOOD
+  Node coverage ratio                 1.3%            —
+  Top node win share                  7.6%            GOOD
 
 (.IP) E:\Bajju files\CMI\projects\CMI_IP>

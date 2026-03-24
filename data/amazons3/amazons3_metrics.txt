@@ -1,82 +1,166 @@
-(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --build
-W0319 03:31:34.320000 29468 .IP\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights: 100%|████████████████████████████████████████████| 103/103 [00:00<00:00, 471.29it/s, Materializing param=pooler.dense.weight]
-BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
-Key                     | Status     |  |
-------------------------+------------+--+-
-embeddings.position_ids | UNEXPECTED |  |
-
-Notes:
-- UNEXPECTED    :can be ignored when loading from different task/architecture; not ok if you expect identical arch.
-Processing markdown files...
-100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 3000/3000 [1:46:59<00:00,  2.14s/it]
-
-Graph saved   : data\amazons3\graph\feature_graph.pkl
-  Feature nodes : 30014
-  Chunk nodes   : 35122
-  Edges         : 71822
-Chroma saved  : data\amazons3\_chroma_db  (35122 vectors)
-
-(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics 
-Loaded graph from: data\amazons3\graph\feature_graph.pkl
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics
+Loaded graph:  data\amazons3\graph\feature_graph.pkl
+  Total nodes : 65136
+  Total edges : 71822
 
 =======================================================
-  GRAPH METRICS
+  METRIC 1 — Root Ratio
 =======================================================
-
-METRIC 1 — Root Ratio
-  Total nodes : 30014
-  Root nodes  : 3000
-  Root ratio  : 10.0%
-
-METRIC 2 — Subtree Size Distribution
-  Avg subtree size : 10.00
-  Largest subtree  : 1842
-  Smallest subtree : 2
-  Largest share    : 6.1%
-
-METRIC 3 — Depth
-  Max depth : 6
-  Avg depth : 2.35
-  Min depth : 1
-
-  Depth distribution:
-    depth 1 | ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (464)
-    depth 2 | █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1333)
-    depth 3 | █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (929)
-    depth 4 | ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (238)
-    depth 5 | ██████████████████████████████████ (34)
-    depth 6 | ██ (2)
-
-METRIC 4 — Support Count
-  Nodes seen once : 30014 (100.0%)
-  Avg support     : 1.00
-
-METRIC 5 — Heading Levels
-  H0: 3000
-  H1: 6537
-  H2: 8630
-  H3: 7260
-  H4: 359
-  H5: 450
-  H6: 3778
+  Total nodes  : 30014
+  Root nodes   : 3000
+  Root ratio   : 10.0%
+  STATUS → GOOD  (< 30% — well-connected hierarchy)
 
 =======================================================
-  RAG METRICS
+  METRIC 2 — Subtree Size Distribution
 =======================================================
+  Number of roots        : 3000
+  Avg subtree size       : 10.0 nodes
+  Largest subtree        : 1842 nodes  ('aws-sdk-php__v3__api__api-ec2-2016-11-15_html')
+  Smallest subtree       : 2 nodes
+  Largest share of graph : 6.1%
+  STATUS → GOOD  (no single root dominates)
 
-METRIC 6 — Uncertain Rate
-  1.2%
+  Top 5 roots by subtree size:
+    1842 nodes ( 6.1%)  depth=5  →  aws-sdk-php__v3__api__api-ec2-2016-11-15_html
+     957 nodes ( 3.2%)  depth=5  →  sdk-for-ruby__v3__api__Aws__EC2__Client_html
+     623 nodes ( 2.1%)  depth=3  →  sdk-for-ruby__v2__api__Aws__EC2__Client_html
+     373 nodes ( 1.2%)  depth=5  →  aws-sdk-php__v3__api__api-s3-2006-03-01_html
+     281 nodes ( 0.9%)  depth=4  →  aws-sdk-php__v3__api__api-s3control-2018-08-20_html
 
-METRIC 7 — Avg Confidence
-  0.6053
+=======================================================
+  METRIC 3 — Max Depth
+=======================================================
+  Max depth across all roots : 6
+  Avg depth across roots     : 2.35
+  Min depth across roots     : 1
+  STATUS → BAD  (< 3 — hierarchy too shallow, features too vague)
 
-METRIC 8 — Top-1 vs Top-2 Gap
-  0.0178
+  Distribution of root depths:
+    depth 1  |  ████████████████████████████████████████████████████████████████████████████████  (464 roots)
+    depth 2  |  ████████████████████████████████████████████████████████████████████████████████  (1333 roots)
+    depth 3  |  ████████████████████████████████████████████████████████████████████████████████  (929 roots)
+    depth 4  |  ████████████████████████████████████████████████████████████████████████████████  (238 roots)
+    depth 5  |  ██████████████████████████████████  (34 roots)
+    depth 6  |  ██  (2 roots)
 
-METRIC 9 — Evidence Count
-  5.00
+=======================================================
+  METRIC 4 — Support Count Distribution
+=======================================================
+  Total nodes              : 30014
+  Nodes seen only once     : 20342  (67.8%)
+  Avg support count        : 89.64
+  Median support count     : 1.0
+  Max support count        : 1088  ('Note')
+  STATUS → BAD  (> 60% — graph is mostly noise headings)
 
-METRIC 10 — Node Coverage
-  0.3%
+  Support count buckets:
+    seen 1        |  ████████████████████████████████████████  (20342)
+    seen 2–3      |  ████████████████████████████████████████  (2071)
+    seen 4–9      |  ████████████████████████████████████████  (756)
+    seen 10–49    |  ████████████████████████████████████████  (878)
+    seen 50+      |  ████████████████████████████████████████  (5967)
+
+=======================================================
+  METRIC 5 — Heading Level Distribution
+=======================================================
+  Level         Count    Share  Bar
+  ---------- -------- --------  ---
+  H0             3000    10.0%  ████
+  H1             6537    21.8%  ██████████
+  H2             8630    28.8%  ██████████████
+  H3             7260    24.2%  ████████████
+  H4              359     1.2%
+  H5              450     1.5%
+  H6             3778    12.6%  ██████
+
+  STATUS → ACCEPTABLE  (H2 dominates — slightly shallow)
+
+
+
+=======================================================
+  GRAPH METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Root ratio                          10.0%           GOOD
+  Largest subtree share               6.1%            GOOD
+  Avg hierarchy depth                 2.35            BAD
+  Single-occurrence node ratio        67.8%           BAD
+  Peak heading level                  H2              OK
+
+Loaded 250 classified results from: data\issues\amazons3_classified.pkl
+
+=======================================================
+  METRIC 6 — Uncertain Rate
+=======================================================
+  Total issues classified : 250
+  Returned 'Uncertain'    : 3
+  Uncertain rate          : 1.2%
+  STATUS → GOOD  (< 20%)
+
+=======================================================
+  METRIC 7 — Average Confidence Score  (accepted only)
+=======================================================
+  Accepted classifications : 247
+  Avg confidence score     : 0.6053
+  Min / Max                : 0.3164 / 0.8622
+  STATUS → GOOD  (> 0.45)
+
+=======================================================
+  METRIC 8 — Top-1 vs Top-2 Confidence Gap
+=======================================================
+  Issues with 2+ candidates : 247
+  Avg gap                   : 0.0178
+  Min / Max gap             : 0.0000 / 0.0999
+  STATUS → BAD  (< 0.03 — classifier is effectively guessing)
+
+  Most ambiguous classifications (smallest gap):
+    gap=0.0000  |  "aws-sdk-php__v3__api__api-s3-2006-03-01_html → Amazon Simple"
+                 vs "sdk-for-ruby__v3__api__Aws__S3__Client_html → The following "
+    Issue: Android: Intermittent 404 NoSuchKey when downloading the same S3 object from And
+    gap=0.0001  |  "AmazonCloudFront__latest__DeveloperGuide__standard-logging-l"
+                 vs "AmazonCloudFront__latest__DeveloperGuide__standard-logging_h"
+    Issue: Setup s3 log for airflow 3.0.5
+    gap=0.0002  |  "AmazonS3__latest__API__s3_example_s3_ListMultipartUploads_se"
+                 vs "sdk-for-ruby__v3__api__Aws__S3__Client_html → The following "
+    Issue: Vue 3 Composition API: Proper way to handle cleanup for recursive AWS S3 Multipa
+
+=======================================================
+  METRIC 9 — Evidence Count Per Classification
+=======================================================
+  Accepted classifications   : 247
+  Avg evidence chunks        : 5.00
+  Classifications w/ 0 chunks: 0
+  STATUS → GOOD  (> 1.5 chunks avg — well grounded)
+
+=======================================================
+  METRIC 10 — Node Coverage by Issues
+=======================================================
+  Feature nodes total         : 30014
+  Nodes matched by any issue  : 227
+  Coverage ratio              : 0.8%
+  Top winning node            : '26f81350-082c-49a8-9ee2-e7d9da0768fd'
+  Top node win share          : 1.2% of accepted issues
+  STATUS → GOOD  (no single node dominates)
+
+  Top 5 most-matched nodes:
+      3 issues ( 1.2%)  →  26f81350-082c-49a8-9ee2-e7d9da0768fd
+      2 issues ( 0.8%)  →  f6c7762d-d254-4d61-9dca-5bd68f16dada
+      2 issues ( 0.8%)  →  71089ef0-a719-4813-8192-38b610c8b1a3
+      2 issues ( 0.8%)  →  55a2bf49-8454-493d-925b-7fd2c384f11a
+      2 issues ( 0.8%)  →  0b68b500-1d1e-4781-907b-a12817f4ab51
+
+
+
+=======================================================
+  RAG METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Uncertain rate                      1.2%            GOOD
+  Avg confidence (accepted)           0.6053          GOOD
+  Avg top-1 vs top-2 gap              0.0178          BAD
+  Avg evidence chunks                 5.00            GOOD
+  Node coverage ratio                 0.8%            —
+  Top node win share                  1.2%            GOOD
+
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>

@@ -1,61 +1,165 @@
-(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics 
-Loaded graph from: data\notion\graph\feature_graph.pkl
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics
+Loaded graph:  data\notion\graph\feature_graph.pkl
+  Total nodes : 33313
+  Total edges : 31181
 
 =======================================================
-  GRAPH METRICS
+  METRIC 1 — Root Ratio
 =======================================================
-
-METRIC 1 — Root Ratio
-  Total nodes : 17971
-  Root nodes  : 2189
-  Root ratio  : 12.2%
-
-METRIC 2 — Subtree Size Distribution
-  Avg subtree size : 8.21
-  Largest subtree  : 73
-  Smallest subtree : 1
-  Largest share    : 0.4%
-
-METRIC 3 — Depth
-  Max depth : 4
-  Avg depth : 2.40
-  Min depth : 0
-
-  Depth distribution:
-    depth 0 | ███ (3)
-    depth 1 | ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (147)
-    depth 2 | ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1031)
-    depth 3 | ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (982)
-    depth 4 | ██████████████████████████ (26)
-
-METRIC 4 — Support Count
-  Nodes seen once : 17971 (100.0%)
-  Avg support     : 1.00
-
-METRIC 5 — Heading Levels
-  H0: 2189
-  H1: 2252
-  H2: 7223
-  H3: 5395
-  H4: 301
-  H5: 63
-  H6: 548
+  Total nodes  : 17971
+  Root nodes   : 2189
+  Root ratio   : 12.2%
+  STATUS → GOOD  (< 30% — well-connected hierarchy)
 
 =======================================================
-  RAG METRICS
+  METRIC 2 — Subtree Size Distribution
 =======================================================
+  Number of roots        : 2189
+  Avg subtree size       : 8.2 nodes
+  Largest subtree        : 73 nodes  ('releases__page__3')
+  Smallest subtree       : 1 nodes
+  Largest share of graph : 0.4%
+  STATUS → GOOD  (no single root dominates)
 
-METRIC 6 — Uncertain Rate
-  70.8%
+  Top 5 roots by subtree size:
+      73 nodes ( 0.4%)  depth=2  →  releases__page__3
+      63 nodes ( 0.4%)  depth=2  →  webinars
+      61 nodes ( 0.3%)  depth=2  →  help__guides__category__project-management
+      52 nodes ( 0.3%)  depth=2  →  help__guides
+      52 nodes ( 0.3%)  depth=4  →  careers____ck_7528f63d28bf8dacd2af220bcd475f25a25f869c8c7bf2
 
-METRIC 7 — Avg Confidence
-  0.4200
+=======================================================
+  METRIC 3 — Max Depth
+=======================================================
+  Max depth across all roots : 4
+  Avg depth across roots     : 2.40
+  Min depth across roots     : 0
+  STATUS → BAD  (< 3 — hierarchy too shallow, features too vague)
 
-METRIC 8 — Top-1 vs Top-2 Gap
-  0.0460
+  Distribution of root depths:
+    depth 0  |  ███  (3 roots)
+    depth 1  |  ████████████████████████████████████████████████████████████████████████████████  (147 roots)
+    depth 2  |  ████████████████████████████████████████████████████████████████████████████████  (1031 roots)
+    depth 3  |  ████████████████████████████████████████████████████████████████████████████████  (982 roots)
+    depth 4  |  ██████████████████████████  (26 roots)
 
-METRIC 9 — Evidence Count
-  5.00
+=======================================================
+  METRIC 4 — Support Count Distribution
+=======================================================
+  Total nodes              : 17971
+  Nodes seen only once     : 7752  (43.1%)
+  Avg support count        : 26.09
+  Median support count     : 2.0
+  Max support count        : 484  ('Start with a template')
+  STATUS → ACCEPTABLE  (40–60%, moderate noise)
 
-METRIC 10 — Node Coverage
-  0.2%
+  Support count buckets:
+    seen 1        |  ████████████████████████████████████████  (7752)
+    seen 2–3      |  ████████████████████████████████████████  (7569)
+    seen 4–9      |  ████████████████████████████████████████  (612)
+    seen 10–49    |  ████████████████████████████████████████  (563)
+    seen 50+      |  ████████████████████████████████████████  (1475)
+
+=======================================================
+  METRIC 5 — Heading Level Distribution
+=======================================================
+  Level         Count    Share  Bar
+  ---------- -------- --------  ---
+  H0             2189    12.2%  ██████
+  H1             2252    12.5%  ██████
+  H2             7223    40.2%  ████████████████████
+  H3             5395    30.0%  ███████████████
+  H4              301     1.7%
+  H5               63     0.4%
+  H6              548     3.0%  █
+
+  STATUS → ACCEPTABLE  (H2 dominates — slightly shallow)
+
+
+
+=======================================================
+  GRAPH METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Root ratio                          12.2%           GOOD
+  Largest subtree share               0.4%            GOOD
+  Avg hierarchy depth                 2.40            BAD
+  Single-occurrence node ratio        43.1%           OK
+  Peak heading level                  H2              OK
+
+Loaded 250 classified results from: data\issues\notion_classified.pkl
+
+=======================================================
+  METRIC 6 — Uncertain Rate
+=======================================================
+  Total issues classified : 250
+  Returned 'Uncertain'    : 177
+  Uncertain rate          : 70.8%
+  STATUS → BAD  (> 40%, corpus gap or threshold too strict)
+
+=======================================================
+  METRIC 7 — Average Confidence Score  (accepted only)
+=======================================================
+  Accepted classifications : 73
+  Avg confidence score     : 0.4200
+  Min / Max                : 0.3006 / 0.6308
+  STATUS → ACCEPTABLE  (0.35–0.45, consider better embeddings)
+
+=======================================================
+  METRIC 8 — Top-1 vs Top-2 Confidence Gap
+=======================================================
+  Issues with 2+ candidates : 73
+  Avg gap                   : 0.0460
+  Min / Max gap             : 0.0000 / 0.1671
+  STATUS → ACCEPTABLE  (0.03–0.08, some ambiguity)
+
+  Most ambiguous classifications (smallest gap):
+    gap=0.0000  |  "help_cant-access-notion → I can’t access Notion"
+                 vs "help_cant-access-notion → I can’t access Notion"
+    Issue: Using Notion API, I get "not found" errors trying to read any page
+    gap=0.0000  |  "help_create-integrations-with-the-notion-api → Notion API in"
+                 vs "help_create-integrations-with-the-notion-api → Notion API in"
+    Issue: Notion API token is invalid
+    gap=0.0000  |  "help_create-a-database → Create a database → [Open a row as "
+                 vs "help_create-a-database → Create a database → [Open a row as "
+    Issue: Is there a way thru Notion API to create a database entry based on a page templa
+
+=======================================================
+  METRIC 9 — Evidence Count Per Classification
+=======================================================
+  Accepted classifications   : 73
+  Avg evidence chunks        : 5.00
+  Classifications w/ 0 chunks: 0
+  STATUS → GOOD  (> 1.5 chunks avg — well grounded)
+
+=======================================================
+  METRIC 10 — Node Coverage by Issues
+=======================================================
+  Feature nodes total         : 17971
+  Nodes matched by any issue  : 60
+  Coverage ratio              : 0.3%
+  Top winning node            : '3330293d-beb4-422a-91bf-ae687dc1c9ba'
+  Top node win share          : 4.1% of accepted issues
+  STATUS → GOOD  (no single node dominates)
+
+  Top 5 most-matched nodes:
+      3 issues ( 4.1%)  →  3330293d-beb4-422a-91bf-ae687dc1c9ba
+      3 issues ( 4.1%)  →  e768fdec-9871-42c4-97e8-aea02e0ebe17
+      2 issues ( 2.7%)  →  da5becbc-8abe-444d-b756-ad725859eeae
+      2 issues ( 2.7%)  →  7ceec0c9-19ae-43bf-99bc-57977b9a0088
+      2 issues ( 2.7%)  →  1b02c69d-b067-456b-bb49-44ce6bb9faa9
+
+
+
+=======================================================
+  RAG METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Uncertain rate                      70.8%           BAD
+  Avg confidence (accepted)           0.4200          OK
+  Avg top-1 vs top-2 gap              0.0460          OK
+  Avg evidence chunks                 5.00            GOOD
+  Node coverage ratio                 0.3%            —
+  Top node win share                  4.1%            GOOD
+
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>

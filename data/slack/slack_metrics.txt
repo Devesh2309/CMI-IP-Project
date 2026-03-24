@@ -1,60 +1,164 @@
-(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics  
-Loaded graph from: data\slack\graph\feature_graph.pkl
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics
+Loaded graph:  data\slack\graph\feature_graph.pkl
+  Total nodes : 24659
+  Total edges : 23022
 
 =======================================================
-  GRAPH METRICS
+  METRIC 1 — Root Ratio
 =======================================================
-
-METRIC 1 — Root Ratio
-  Total nodes : 13291
-  Root nodes  : 1725
-  Root ratio  : 13.0%
-
-METRIC 2 — Subtree Size Distribution
-  Avg subtree size : 7.70
-  Largest subtree  : 46
-  Smallest subtree : 2
-  Largest share    : 0.3%
-
-METRIC 3 — Depth
-  Max depth : 4
-  Avg depth : 2.49
-  Min depth : 1
-
-  Depth distribution:
-    depth 1 | ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (119)    
-    depth 2 | ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (647)
-    depth 3 | ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (958)
-    depth 4 | █ (1)
-
-METRIC 4 — Support Count
-  Nodes seen once : 13291 (100.0%)
-  Avg support     : 1.00
-
-METRIC 5 — Heading Levels
-  H0: 1725
-  H1: 2691
-  H2: 4568
-  H3: 4170
-  H4: 52
-  H5: 4
-  H6: 81
+  Total nodes  : 13291
+  Root nodes   : 1725
+  Root ratio   : 13.0%
+  STATUS → GOOD  (< 30% — well-connected hierarchy)
 
 =======================================================
-  RAG METRICS
+  METRIC 2 — Subtree Size Distribution
 =======================================================
+  Number of roots        : 1725
+  Avg subtree size       : 7.7 nodes
+  Largest subtree        : 46 nodes  ('intl__es-la__blog__productivity__project-planning-and-timelines-guide-tools-and-best-practices')
+  Smallest subtree       : 2 nodes
+  Largest share of graph : 0.3%
+  STATUS → GOOD  (no single root dominates)
 
-METRIC 6 — Uncertain Rate
-  4.8%
+  Top 5 roots by subtree size:
+      46 nodes ( 0.3%)  depth=3  →  intl__es-la__blog__productivity__project-planning-and-timelines-guide-tools-and-best-practices    
+      45 nodes ( 0.3%)  depth=3  →  intl__it-it__help__articles__360049597673-FAQ--importare-dati-tra-aree-di-lavoro-Slack
+      45 nodes ( 0.3%)  depth=3  →  intl__es-la__help__articles__360049597673-PREGUNTAS-FRECUENTES--C_C3_B3mo-importar-datos-de-un-espacio-de-trabajo-de-Slack-a-otro
+      45 nodes ( 0.3%)  depth=3  →  intl__en-in__help__articles__360049597673-FAQ--Import-data-from-one-Slack-workspace-to-another    
+      45 nodes ( 0.3%)  depth=3  →  intl__en-gb__help__articles__360049597673-FAQ--Import-data-from-one-Slack-workspace-to-another    
 
-METRIC 7 — Avg Confidence
-  0.6113
+=======================================================
+  METRIC 3 — Max Depth
+=======================================================
+  Max depth across all roots : 4
+  Avg depth across roots     : 2.49
+  Min depth across roots     : 1
+  STATUS → BAD  (< 3 — hierarchy too shallow, features too vague)
 
-METRIC 8 — Top-1 vs Top-2 Gap
-  0.0114
+  Distribution of root depths:
+    depth 1  |  ████████████████████████████████████████████████████████████████████████████████  (119 roots)
+    depth 2  |  ████████████████████████████████████████████████████████████████████████████████  (647 roots)
+    depth 3  |  ████████████████████████████████████████████████████████████████████████████████  (958 roots)
+    depth 4  |  █  (1 roots)
 
-METRIC 9 — Evidence Count
-  5.00
+=======================================================
+  METRIC 4 — Support Count Distribution
+=======================================================
+  Total nodes              : 13291
+  Nodes seen only once     : 7852  (59.1%)
+  Avg support count        : 4.37
+  Median support count     : 1.0
+  Max support count        : 99  ('**Got it!**')
+  STATUS → ACCEPTABLE  (40–60%, moderate noise)
 
-METRIC 10 — Node Coverage
-  0.7%
+  Support count buckets:
+    seen 1        |  ████████████████████████████████████████  (7852)
+    seen 2–3      |  ████████████████████████████████████████  (3462)
+    seen 4–9      |  ████████████████████████████████████████  (1124)
+    seen 10–49    |  ████████████████████████████████████████  (529)
+    seen 50+      |  ████████████████████████████████████████  (324)
+
+=======================================================
+  METRIC 5 — Heading Level Distribution
+=======================================================
+  Level         Count    Share  Bar
+  ---------- -------- --------  ---
+  H0             1725    13.0%  ██████
+  H1             2691    20.2%  ██████████
+  H2             4568    34.4%  █████████████████
+  H3             4170    31.4%  ███████████████
+  H4               52     0.4%
+  H5                4     0.0%
+  H6               81     0.6%
+
+  STATUS → ACCEPTABLE  (H2 dominates — slightly shallow)
+
+
+
+=======================================================
+  GRAPH METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Root ratio                          13.0%           GOOD
+  Largest subtree share               0.3%            GOOD
+  Avg hierarchy depth                 2.49            BAD
+  Single-occurrence node ratio        59.1%           OK
+  Peak heading level                  H2              OK
+
+Loaded 250 classified results from: data\issues\slack_classified.pkl
+
+=======================================================
+  METRIC 6 — Uncertain Rate
+=======================================================
+  Total issues classified : 250
+  Returned 'Uncertain'    : 12
+  Uncertain rate          : 4.8%
+  STATUS → GOOD  (< 20%)
+
+=======================================================
+  METRIC 7 — Average Confidence Score  (accepted only)
+=======================================================
+  Accepted classifications : 238
+  Avg confidence score     : 0.6113
+  Min / Max                : 0.3141 / 0.8321
+  STATUS → GOOD  (> 0.45)
+
+=======================================================
+  METRIC 8 — Top-1 vs Top-2 Confidence Gap
+=======================================================
+  Issues with 2+ candidates : 238
+  Avg gap                   : 0.0114
+  Min / Max gap             : 0.0000 / 0.1253
+  STATUS → BAD  (< 0.03 — classifier is effectively guessing)
+
+  Most ambiguous classifications (smallest gap):
+    gap=0.0000  |  "intl__en-gb__help__articles__360001559367-Troubleshoot-Slack"
+                 vs "intl__en-in__help__articles__360001559367-Troubleshoot-Slack"
+    Issue: Not receiving user_status_changed event
+    gap=0.0000  |  "intl__en-in__help__articles__48167543695379-A-reintroduction"
+                 vs "intl__en-in__help__articles__202026038-How-to-use-Slackbot →"
+    Issue: Python slack bot - Retrieves 0 messages from conversations history when latest a
+    gap=0.0000  |  "marketplace__A01BP7R4KNY-github → GitHub | Slack Marketplace"
+                 vs "marketplace__A01BP7R4KNY-github → GitHub | Slack Marketplace"
+    Issue: Cannot send Github scheduled reminders test
+
+=======================================================
+  METRIC 9 — Evidence Count Per Classification
+=======================================================
+  Accepted classifications   : 238
+  Avg evidence chunks        : 5.00
+  Classifications w/ 0 chunks: 0
+  STATUS → GOOD  (> 1.5 chunks avg — well grounded)
+
+=======================================================
+  METRIC 10 — Node Coverage by Issues
+=======================================================
+  Feature nodes total         : 13291
+  Nodes matched by any issue  : 173
+  Coverage ratio              : 1.3%
+  Top winning node            : '54548b00-54d2-4cff-888d-06506c14b04d'
+  Top node win share          : 7.1% of accepted issues
+  STATUS → GOOD  (no single node dominates)
+
+  Top 5 most-matched nodes:
+     17 issues ( 7.1%)  →  54548b00-54d2-4cff-888d-06506c14b04d
+      8 issues ( 3.4%)  →  3e5e9b81-80bf-40d7-9c44-9c5d4661df55
+      5 issues ( 2.1%)  →  f5760299-14d2-44bb-9f09-d2df757e3d7d
+      5 issues ( 2.1%)  →  716fdead-be46-48ff-b7b5-93a3307292cd
+      4 issues ( 1.7%)  →  53ac0d8b-9210-430d-bd89-e7ed20685882
+
+
+
+=======================================================
+  RAG METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Uncertain rate                      4.8%            GOOD
+  Avg confidence (accepted)           0.6113          GOOD
+  Avg top-1 vs top-2 gap              0.0114          BAD
+  Avg evidence chunks                 5.00            GOOD
+  Node coverage ratio                 1.3%            —
+  Top node win share                  7.1%            GOOD
+
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>

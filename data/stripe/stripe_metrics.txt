@@ -1,0 +1,165 @@
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>python main.py --metrics
+Loaded graph:  data\stripe\graph\feature_graph.pkl
+  Total nodes : 99344
+  Total edges : 108791
+
+=======================================================
+  METRIC 1 — Root Ratio
+=======================================================
+  Total nodes  : 43235
+  Root nodes   : 3614
+  Root ratio   : 8.4%
+  STATUS → GOOD  (< 30% — well-connected hierarchy)
+
+=======================================================
+  METRIC 2 — Subtree Size Distribution
+=======================================================
+  Number of roots        : 3614
+  Avg subtree size       : 12.0 nodes
+  Largest subtree        : 279 nodes  ('js_element_events_on_change')
+  Smallest subtree       : 1 nodes
+  Largest share of graph : 0.6%
+  STATUS → GOOD  (no single root dominates)
+
+  Top 5 roots by subtree size:
+     279 nodes ( 0.6%)  depth=4  →  js_setup_intents_retrieve_setup_intent
+     279 nodes ( 0.6%)  depth=4  →  js_setup_intents_payment_method
+     279 nodes ( 0.6%)  depth=4  →  js_setup_intents_confirm_card_setup
+     279 nodes ( 0.6%)  depth=4  →  js_payment_request
+     279 nodes ( 0.6%)  depth=4  →  js_payment_intents_confirm_twint_payment
+
+=======================================================
+  METRIC 3 — Max Depth
+=======================================================
+  Max depth across all roots : 5
+  Avg depth across roots     : 2.45
+  Min depth across roots     : 0
+  STATUS → BAD  (< 3 — hierarchy too shallow, features too vague)
+
+  Distribution of root depths:
+    depth 0  |  ██  (2 roots)
+    depth 1  |  ████████████████████████████████████████████████████████████████████████████████  (146 roots)
+    depth 2  |  ████████████████████████████████████████████████████████████████████████████████  (2027 roots)
+    depth 3  |  ████████████████████████████████████████████████████████████████████████████████  (1114 roots)
+    depth 4  |  ████████████████████████████████████████████████████████████████████████████████  (319 roots)
+    depth 5  |  ██████  (6 roots)
+
+=======================================================
+  METRIC 4 — Support Count Distribution
+=======================================================
+  Total nodes              : 43235
+  Nodes seen only once     : 15144  (35.0%)
+  Avg support count        : 135.83
+  Median support count     : 8.0
+  Max support count        : 901  ('Attributes')
+  STATUS → GOOD  (< 40% single-occurrence nodes)
+
+  Support count buckets:
+    seen 1        |  ████████████████████████████████████████  (15144)
+    seen 2–3      |  ████████████████████████████████████████  (2564)
+    seen 4–9      |  ████████████████████████████████████████  (5169)
+    seen 10–49    |  ████████████████████████████████████████  (11236)
+    seen 50+      |  ████████████████████████████████████████  (9122)
+
+=======================================================
+  METRIC 5 — Heading Level Distribution
+=======================================================
+  Level         Count    Share  Bar
+  ---------- -------- --------  ---
+  H0             3614     8.4%  ████
+  H1            11953    27.6%  █████████████
+  H2            11202    25.9%  ████████████
+  H3             9279    21.5%  ██████████
+  H4             6802    15.7%  ███████
+  H5              385     0.9%
+
+  STATUS → BAD  (H1 dominates — graph is too flat)
+
+
+
+=======================================================
+  GRAPH METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Root ratio                          8.4%            GOOD
+  Largest subtree share               0.6%            GOOD
+  Avg hierarchy depth                 2.45            BAD
+  Single-occurrence node ratio        35.0%           GOOD
+  Peak heading level                  H1              BAD
+
+Loaded 250 classified results from: data\issues\stripe_classified.pkl
+
+=======================================================
+  METRIC 6 — Uncertain Rate
+=======================================================
+  Total issues classified : 250
+  Returned 'Uncertain'    : 3
+  Uncertain rate          : 1.2%
+  STATUS → GOOD  (< 20%)
+
+=======================================================
+  METRIC 7 — Average Confidence Score  (accepted only)
+=======================================================
+  Accepted classifications : 247
+  Avg confidence score     : 0.6864
+  Min / Max                : 0.3230 / 0.8666
+  STATUS → GOOD  (> 0.45)
+
+=======================================================
+  METRIC 8 — Top-1 vs Top-2 Confidence Gap
+=======================================================
+  Issues with 2+ candidates : 247
+  Avg gap                   : 0.0138
+  Min / Max gap             : 0.0000 / 0.1662
+  STATUS → BAD  (< 0.03 — classifier is effectively guessing)
+
+  Most ambiguous classifications (smallest gap):
+    gap=0.0000  |  "mobile_digital-goods → Accept in-app purchases on iOS and An"
+                 vs "mobile_digital-goods → Accept in-app purchases on iOS and An"
+    Issue: Anyone integrated stripe for subscriptions in Flutter? Need your guidance
+    gap=0.0000  |  "js_setup_intents_retrieve_setup_intent"
+                 vs "js_setup_intents_retrieve_setup_intent"
+    Issue: Unable to get Stripe setup intents to work
+    gap=0.0000  |  "api_v2_core_events → parsing and retrieving event details."
+                 vs "api_v2_core_events → parsing and retrieving event details."
+    Issue: Expo EAS build not fetching data from HTTP API in production
+
+=======================================================
+  METRIC 9 — Evidence Count Per Classification
+=======================================================
+  Accepted classifications   : 247
+  Avg evidence chunks        : 5.00
+  Classifications w/ 0 chunks: 0
+  STATUS → GOOD  (> 1.5 chunks avg — well grounded)
+
+=======================================================
+  METRIC 10 — Node Coverage by Issues
+=======================================================
+  Feature nodes total         : 43235
+  Nodes matched by any issue  : 236
+  Coverage ratio              : 0.5%
+  Top winning node            : 'b0aec560-caa2-4d81-bbb1-84bab8ba220b'
+  Top node win share          : 1.2% of accepted issues
+  STATUS → GOOD  (no single node dominates)
+
+  Top 5 most-matched nodes:
+      3 issues ( 1.2%)  →  b0aec560-caa2-4d81-bbb1-84bab8ba220b
+      2 issues ( 0.8%)  →  ecdb56ad-1584-468e-97fd-6b7eeb1009b1
+      2 issues ( 0.8%)  →  6c429fea-9639-4b2a-a0b2-f739e4c3cd57
+      2 issues ( 0.8%)  →  11d145da-9f93-41f5-b7d0-3e4d49e10171
+      2 issues ( 0.8%)  →  6f92887a-b491-4fea-b417-2734a5581c9f
+
+
+
+=======================================================
+  RAG METRICS SUMMARY
+=======================================================
+  Metric                              Value           Status
+  Uncertain rate                      1.2%            GOOD
+  Avg confidence (accepted)           0.6864          GOOD
+  Avg top-1 vs top-2 gap              0.0138          BAD
+  Avg evidence chunks                 5.00            GOOD
+  Node coverage ratio                 0.5%            —
+  Top node win share                  1.2%            GOOD
+
+(.IP) E:\Bajju files\CMI\projects\CMI_IP>
