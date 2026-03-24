@@ -7,33 +7,23 @@ __pycache__/
 # Virtual environments
 .IP/
 
-# VSCode
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
 # Logs
 *.log
-
-# Local config duplicate
-CONFIG.py
 
 # Test files (optional)
 test.py
 
-# PyVis generated visualizations
-*.html
 
 # Ignore everything inside data
 data/*
 
 # But allow links folder
 !data/links/
+!data/issues/*
 
 # Allow files inside links
 !data/links/*
+!data/issues/*
 
 # Explicitly ignore heavy/generated data
 data/chroma_db/

@@ -8,11 +8,21 @@ load_dotenv()
 FIRECRAWL_API_KEY = os.getenv("FIRECRAWL_API_KEY")
 
 # --------- BASE URL ----------
-BASE_URL = "https://support.discord.com/hc/en-us"
+BASE_URL = "https://docs.stripe.com/"
+#"https://support.discord.com/hc/en-us"
+#"https://slack.com/intl/en-in/help"
+#"https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html"
+#"https://www.binance.com/en-IN/binance-api"
+#"https://www.notion.com/help"
+#"https://docs.stripe.com/"
+
 
 # --------- DATA DIRECTORIES ----------
 BASE_DATA_DIR = "data"
 DOCS_PROVIDER = os.getenv("DOCS_PROVIDER")
+# --------- STACKOVERFLOW CONFIG ----------
+SO_TAG = os.getenv("SO_TAG", DOCS_PROVIDER)
+SO_PAGES = int(os.getenv("SO_PAGES", 5))      
 
 MARKDOWN_DIR = os.path.join(BASE_DATA_DIR, "markdown", f"{DOCS_PROVIDER}_md")
 HTML_DIR = os.path.join(BASE_DATA_DIR, "rendered_html", f"{DOCS_PROVIDER}_html")
