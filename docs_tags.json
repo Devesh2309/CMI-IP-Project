@@ -1,0 +1,32 @@
+[
+    {
+        "BASE_URL": "https://www.twilio.com/docs",
+        "DOCS_PROVIDER": "twilio",
+        "SO_TAG": "twilio-api"
+    },
+    {
+        "BASE_URL": "https://support.discord.com/hc/en-us",
+        "DOCS_PROVIDER": "discord",
+        "SO_TAG": "discord"
+    },
+    {
+        "BASE_URL": "https://slack.com/intl/en-in/help",
+        "DOCS_PROVIDER": "slack",
+        "SO_TAG": "slack-api"
+    },
+    {
+        "BASE_URL": "https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html",
+        "DOCS_PROVIDER": "amazons3",
+        "SO_TAG": "amazon-s3"
+    },
+    {
+        "BASE_URL": "https://www.notion.com/help",
+        "DOCS_PROVIDER": "notion",
+        "SO_TAG": "notion-api"
+    },
+    {
+        "BASE_URL": "https://docs.stripe.com/",
+        "DOCS_PROVIDER": "stripe",
+        "SO_TAG": "stripe-payments"
+    }
+]
